@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background:#f9f9f9;
+    height:1400px;
+}
+
+section{
+    height:400px;
+}
+
+
+/*NAVBAR*/
+.navbar-toggler {
+    border-color :#03A9F4;
+    color: #03A9F4;
+    font-size: 30px;
+}
+
+
+/*TRIANGLES*/
+
+.triangleBright{
+
+}
+
+.triangleDark{
+
+}
+
+/*TITLES*/
+.preTitle{
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.sectionTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    transform: skewY(-3deg);
+}
+
+.postTitle{
+
+}
+
+
+/*SECTIONS*/
+#header{
+
+}
+
+#career{
+    background: #03A9F4;
+    color: white;   
+}
+
+#jobs{
+
+}
+
+#skills{
+    background: #03A9F4;
+    color: white;   
+}
+
+#activities{
+ 
+}
+
+#documents{
+    background: #03A9F4;
+    color: white;      
+}
+
+#contact{
+
+}
+
+#footer{
+    background: #03A9F4;
+    color: white;     
+}
+
+/*MEDIA*/
+@media (max-width: 576px){
+    .sectionTitle{
+        font-size:48px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .sectionTitle{
+        font-size:80px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .sectionTitle{
+        font-size:80px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .sectionTitle{
+        font-size:100px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .sectionTitle{
+        font-size:120px;
+    }
+}
+
+
+/*FOOTER*/
+.footer-icon {
+    height: 48px;
+    width: 48px;
+    border: 3px solid #fff;
+    border-radius: 1100%;
+    position: relative;
+    left: 50%;
+    margin-left: -22px;
+    margin-bottom: 14px;
+    z-index: 2;
+}
+
+.message {
+    background-image: url(../img/message.svg);
+    background-size: contain;
+}
+
+.phone {
+    background-image: url(../img/phone.svg);
+    background-size: contain;
+}
+
+.footer-label {
+    width: 200px;
+    position: relative;
+}
