@@ -83,15 +83,15 @@
               <div class="col-md-6">
                 <ul class="timeline">
                   <li>
-                    <p>New Web Design</p>
+                    <p>2019</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
                   </li>
                   <li>
-                    <p>21 000 Job Seekers</p>
+                    <p>2016</p>
                     <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
                   </li>
                   <li>
-                    <p>Awesome Employers</p>
+                    <p>2014</p>
                     <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
                   </li>
                 </ul>
@@ -100,15 +100,15 @@
               <div class="col-md-6">
                   <ul class="timeline">
                     <li>
-                      <p>New Web Design</p>
+                      <p>2013</p>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
                     </li>
                     <li>
-                      <p>21 000 Job Seekers</p>
+                      <p>2011</p>
                       <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
                     </li>
                     <li>
-                      <p>Awesome Employers</p>
+                      <p>2008</p>
                       <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
                     </li>
                   </ul>
@@ -286,32 +286,60 @@
             </div>
           </div>
           <div class="container contact-form">
-              <div class="contact-image">
-                  <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
-              </div>
-              <form method="post">
-                 <div class="row">
-                      <div class="col-md-6">
-                          <div class="form-group">
-                              <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                          </div>
-                          <div class="form-group">
-                              <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                          </div>
-                          <div class="form-group">
-                              <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                          </div>
-                          <div class="form-group">
-                              <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                          </div>
-                      </div>
-                      <div class="col-md-6">
-                          <div class="form-group">
-                              <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                          </div>
-                      </div>
+
+              <form method="post" action="submit.php">
+
+                <div class="row">
+                  <div class="col-6">
+                    <p>Betreff:
+                    <br /><input class="contactInp" name="reference" /></p>
                   </div>
-              </form>
+                  
+                  <div class="col-6">
+                    <p>Your name:
+                    <br /><input class="contactInp"  type="text" name="name" /></p>
+                  </div>
+                  
+                  <div class="col-6">
+                    <p>Your email*:
+                    <br /><input class="contactInp" type="email" name="email" /></p>
+                  </div>
+                
+                  <div class="col-6">  
+                    <p>Your phonenumber:
+                    <br /><input class="contactInp"  name="phone" /></p>
+                  </div>
+                    <!-- Important: if you add any fields to this page, you will also need to update the php script -->
+                   
+                  <div class="col-6">  
+                    <p style="display:none">Leave this empty:
+                    <br /><input class="contactInp"  name="url" /></p>
+                  </div>
+                   
+                  <div class="col-12">
+                    <p>Your message*:
+                    <br /><textarea class="contactInpTexA" name="message" rows="10" cols="50"></textarea></p>
+                  </div>
+        
+                  <div class="col-6">  
+                      <p><input class="contactInp"  type="submit" value="Send" /></p>
+                    </div>
+
+                  <div class="col-6">  
+                    <input type="checkbox" name="dpp" value="value1">
+                  </div>
+
+                  <div class="col-12">
+                      <p>
+                          Ich habe die 
+                          <a href="#">Datdatenschutzerklärung</a> 
+                          gelesen und akzeptiere diese.
+                        </p>
+                  </div>
+
+
+                </div>
+                </form>
   </div>
         </section>
 
