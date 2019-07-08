@@ -9,11 +9,17 @@ body{
 
 section{
     min-height:400px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 
 /*NAVBAR*/
+
+.navbar {
+    position: absolute;
+    z-index: 10;
+}
+
 .navbar-toggler {
     /* border-color: #03A9F4; */
     color: #ffffff;
@@ -23,6 +29,11 @@ section{
 
 .navbar-nav .nav-link {
     color: white;
+    font-size: 25px;
+}
+
+.nav-item .navbar-nav .navbar-link:hover{
+    color:#c82e2e;
 }
 
 /*TRIANGLES*/
@@ -36,6 +47,7 @@ section{
     width:100%;
     height:75px;
 }
+
 
 /*TITLES*/
 .preTitle{
@@ -61,7 +73,7 @@ section{
 }
 
 .astronaut{
-    background: url(../img/astronaut/idle0.png);
+    background: url(../img/astronaut/idle1.png);
     background-repeat: no-repeat;
     background-position-x: 50%;
     animation-name: astronaut;
@@ -74,16 +86,18 @@ section{
 @keyframes astronaut {
     0% {  background-position-y: 153px;    }
     50%   {  background-position-y: 103px; }
-    100%   {  background-position-y: 153px; }
+    100%   {  background-position-y: 153px;  }
 }
 
 .space{
     height:400px;
-    background: #090a0f;
-    background: -moz-linear-gradient(top, #090a0f 0%, #21538a 43%, #6ea0d3 100%);
-    background: -webkit-linear-gradient(top, #090a0f 0%,#21538a 43%,#6ea0d3 100%);
-    background: linear-gradient(to bottom, #090a0f 0%,#21538a 43%,#6ea0d3 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#090a0f', endColorstr='#6ea0d3',GradientType=0 );
+    background: #131111;
+    /*
+    background: -moz-linear-gradient(top, #07062b 0%,#450084 43%,#000000 100%);
+    background: -webkit-linear-gradient(top, #07062b 0%,#450084 43%,#000000 100%);
+    background: linear-gradient(to bottom, #07062b 0%,#450084 43%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131111', endColorstr='#450084',GradientType=0 );
+    */
 }
 
 .stars1, .stars2, .stars3, .stars4, .stars5{
@@ -237,6 +251,14 @@ background: linear-gradient(to bottom,  #03a9f4 0%,#7105ff 100%); /* W3C, IE10+,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', endColorstr='#7105ff',GradientType=0 ); /* IE6-9 */
 
     color: white;      
+}
+
+.docBtn{
+    width:100%;
+    border:3px solid white;
+    padding:10px;
+    color:white;
+    text-align:center;
 }
 
 #contact{
