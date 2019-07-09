@@ -73,20 +73,22 @@ section{
 }
 
 .astronaut{
-    background: url(../img/astronaut/idle1.png);
+    background: url(../img/astronaut/idle0.png);
     background-repeat: no-repeat;
-    background-position-x: 50%;
     animation-name: astronaut;
-    animation-duration: 15s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
-    height: 100%;
-    position: relative;
+    animation-timing-function: linear;
+    height: 328px;
+    left: 50%;
+    width: 125px;
+    position: absolute;
 }
 
 @keyframes astronaut {
-    0% {  background-position-y: 153px;    }
-    50%   {  background-position-y: 103px; }
-    100%   {  background-position-y: 153px;  }
+    0% {  background-position-y: 0px;    }
+    50%   {  background-position-y: 50px; transform:rotate(-4deg); }
+    100%   {  background-position-y: 0px;  }
 }
 
 .space{
@@ -104,6 +106,14 @@ section{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     height: 400px;
+    width: 100%;
+    position: absolute;  
+}
+
+.stars6, .stars7, .stars8, .stars9, .stars10{
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 900px;
     width: 100%;
     position: absolute;  
 }
@@ -163,18 +173,73 @@ section{
     100%   {  background-position-y: 449px; }
 }
 
+.stars6{
+    background: url(../img/stars/stars.png);
+    animation-name: space1;
+    animation-duration: 25s;
+}
+
+@keyframes space6 {
+    0% {  background-position-y: 0px;    }
+    100%   {  background-position-y: 449px; }
+}
+
+.stars7{
+    background: url(../img/stars/stars2.png);
+    animation-name: space2;
+    animation-duration: 40s;
+}
+
+@keyframes space7 {
+    0% {  background-position-y: 0px;    }
+    100%   {  background-position-y: 449px; }
+}
+
+.stars8{
+    background: url(../img/stars/stars3.png);
+    animation-name: space3;
+    animation-duration: 17s;
+}
+
+@keyframes space8 {
+    0% {  background-position-y: 0px;    }
+    100%   {  background-position-y: 449px; }
+}
+
+.stars9{
+    background: url(../img/stars/stars4.png);
+    animation-name: space4;
+    animation-duration: 2.5s;
+}
+
+@keyframes space9 {
+    0% {  background-position-y: 0px;    }
+    100%   {  background-position-y: 449px; }
+}
+
+.stars10{
+    background: url(../img/stars/stars5.png);
+    animation-name: space5;
+    animation-duration: 20s;
+}
+
+@keyframes space10 {
+    0% {  background-position-y: 0px;    }
+    100%   {  background-position-y: 449px; }
+}
+
 
 #career{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#03a9f4+0,7105ff+100 
-    background: #03a9f4;
-    background: -moz-linear-gradient(-45deg,  #03a9f4 0%, #7105ff 100%); 
-    background: -webkit-linear-gradient(-45deg,  #03a9f4 0%,#7105ff 100%); 
-    background: linear-gradient(135deg,  #03a9f4 0%,#7105ff 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', endColorstr='#7105ff',GradientType=1 ); 
-    */
-    background: #131111;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#131111+32,12017f+55,0069bf+86 */
+background: #131111; /* Old browsers */
+background: -moz-linear-gradient(top,  #131111 32%, #12017f 55%, #0069bf 86%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #131111 32%,#12017f 55%,#0069bf 86%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #131111 32%,#12017f 55%,#0069bf 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131111', endColorstr='#0069bf',GradientType=0 ); /* IE6-9 */
 
-    color: white;   
+    height:900px;
+    color: white; 
+    padding-bottom: 0px;  
 }
 
 ul.timeline {
@@ -261,6 +326,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', end
     padding:10px;
     color:white;
     text-align:center;
+    font-size: 20px;
 }
 
 #contact{
@@ -271,6 +337,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', end
     border: 3px solid #212529;
     background: #f9f9f9;
     width: 100%;
+    border-radius: 10px;
 }
 
 .contactInpTexA{
@@ -279,6 +346,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', end
     background: #f9f9f9;
     width: 100%;
     resize: none;
+    border-radius: 10px;
 }
 
 #footer{
