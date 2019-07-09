@@ -237,7 +237,7 @@ section{
     background: linear-gradient(to bottom,  #131111 32%,#12017f 55%,#0069bf 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131111', endColorstr='#0069bf',GradientType=0 ); /* IE6-9 */
 
-    height:900px;
+    height:100%;
     color: white; 
     padding-bottom: 0px;  
 }
