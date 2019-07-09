@@ -1,476 +1,418 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+body {
+	font-family: 'Open Sans', sans-serif;
+    
+	background:#191f2d;
 
-body{
-    font-family: 'Open Sans', sans-serif;
+    
+}
+
+section {
+	min-height: 400px;
+	padding-bottom: 70px;
+	transform: skew(0deg, -3deg);
+}
+
+.aboutme{
     color:white;
-    background: #131111;
-    background: -moz-linear-gradient(top, #131111 32%, #12017f 55%, #0069bf 86%);
-    background: -webkit-linear-gradient(top, #131111 32%,#12017f 55%,#0069bf 86%);
-    background: linear-gradient(to bottom, #131111 32%,#12017f 55%,#0069bf 86%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131111', endColorstr='#0069bf',GradientType=0 );
 }
 
-section{
-    min-height:400px;
-    padding-bottom: 70px;
-
-    transform:skew(0deg, -3deg);
+.well{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 
-.container{
-    transform:skew(0deg, 3deg);
-    padding: 50px;
+.container {
+	transform: skew(0deg, 3deg);
+	padding: 50px;
 }
+
 
 /*NAVBAR*/
 
 .navbar {
-    position: absolute;
-    z-index: 10;
+	position: absolute;
+	z-index: 10;
 }
 
-.navbar-expand-md{
-    /*
-    background: #f9f9f9a1;
-    width: 100%;
-    border-bottom: 4px solid #f9f9f9;
-    */
+.navbar-expand-md {
+	/* background: #f9f9f9a1;
+     width: 100%;
+     border-bottom: 4px solid #f9f9f9;
+     */
 }
 
 .navbar-toggler {
-    /* border-color: #03A9F4; */
-    color: white;
-    font-size: 50px;
-    z-index:9;
+	/* border-color: #03A9F4;
+     */
+	color: white;
+	font-size: 50px;
+	z-index: 9;
 }
 
 .navbar-nav .nav-link {
-    color: white;
-    font-size: 25px;
+	color: white;
+	font-size: 25px;
 }
 
-.nav-item .navbar-nav .navbar-link:hover{
-    color:#c82e2e;
-}
-
-/*
-@media (max-width: 768px){
-    .navbar-expand-md {
-        background: #f9f9f982;
-        color: white;
-        transform: skew(0deg, -3deg);
-        width: 100%;
-        margin-top: -10px;
-    }
-    .navbar-nav .nav-link {
-        color: black;
-        transform: skew(0deg, 3deg);
-    }
-}
-*/
-
-/*TRIANGLES*/
-
-.triangleBright{
-    /*
-    width: 100%;
-    height: 200px;
-    background: #f9f9f9;
-    transform: skew(0deg, -3deg);
-    margin-top: -100px;
-    padding-bottom: 50px;
-    */
-}
-
-.triangleDark{
-    /*
-    width: 100%;
-    height: 200px;
-    background: #f9f9f9;
-    transform: skew(0deg, -3deg);
-    margin-top: -100px;
-    padding-bottom: 50px;
-    */
+.nav-item .navbar-nav .navbar-link:hover {
+	color: #c82e2e;
 }
 
 
 /*TITLES*/
-.preTitle{
-    font-size: 11px;
-    margin-bottom: 0px;
+.preTitle {
+	font-size: 11px;
+	margin-bottom: 0px;
 }
 
-.sectionTitle{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-weight: bold;
-    transform: skewY(-3deg);
+.sectionTitle {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-weight: bold;
+	transform: skewY(-3deg);
 }
 
-.postTitle{
-
-}
+.postTitle {}
 
 
 /*SECTIONS*/
-#header{
-    padding-bottom:0;
-    padding-top: 70px;
+#header {
+	padding-bottom: 0;
+	padding-top: 70px;
 }
 
-.astronaut{
-    background: url(../img/astronaut/idle0.png);
-    background-repeat: no-repeat;
-    animation-name: astronaut;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    height: 500px;
-    left: 50%;
-    width: 125px;
-    position: absolute;
-    transform:rotate(3deg)
+.astronaut {
+	background: url(../img/astronaut/idle0.png);
+	background-repeat: no-repeat;
+	animation-name: astronaut;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	height: 500px;
+	left: 50%;
+	width: 125px;
+	position: absolute;
+	transform: rotate(3deg)
 }
 
 @keyframes astronaut {
-    0% {  background-position-y: 50px;   }
-    50%   {  background-position-y: 150px; }
-    100%   {  background-position-y: 50px;  }
+	0% {
+		background-position-y: 50px;
+	}
+	50% {
+		background-position-y: 150px;
+	}
+	100% {
+		background-position-y: 50px;
+	}
 }
 
-.space{
-    height:400px;
-    
-    /*
-    background: -moz-linear-gradient(top, #07062b 0%,#450084 43%,#000000 100%);
-    background: -webkit-linear-gradient(top, #07062b 0%,#450084 43%,#000000 100%);
-    background: linear-gradient(to bottom, #07062b 0%,#450084 43%,#000000 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131111', endColorstr='#450084',GradientType=0 );
-    */
+.space {
+	height: 400px;
 }
 
-.stars1, .stars2, .stars3, .stars4, .stars5{
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    height: 100%;
-    width: 100%;
-    position: absolute;  
+.stars1,
+.stars2,
+.stars3,
+.stars4,
+.stars5 {
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	height: 200%;
+	width: 100%;
+	position: absolute;
 }
 
-.stars6, .stars7, .stars8, .stars9, .stars10{
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    height: 100%;
-    width: 100%;
-    position: absolute;  
-}
-
-.stars1{
-    background: url(../img/stars/stars.png);
-    animation-name: space1;
-    animation-duration: 25s;
+.stars1 {
+	background: url(../img/stars/stars.png);
+	animation-name: space1;
+	animation-duration: 25s;
 }
 
 @keyframes space1 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
+	0% {
+		background-position-y: 0px;
+	}
+	100% {
+		background-position-y: 449px;
+	}
 }
 
-.stars2{
-    background: url(../img/stars/stars2.png);
-    animation-name: space2;
-    animation-duration: 40s;
+.stars2 {
+	background: url(../img/stars/stars2.png);
+	animation-name: space2;
+	animation-duration: 40s;
 }
 
 @keyframes space2 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
+	0% {
+		background-position-y: 0px;
+	}
+	100% {
+		background-position-y: 449px;
+	}
 }
 
-.stars3{
-    background: url(../img/stars/stars3.png);
-    animation-name: space3;
-    animation-duration: 17s;
+.stars3 {
+	background: url(../img/stars/stars3.png);
+	animation-name: space3;
+	animation-duration: 17s;
 }
 
 @keyframes space3 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
+	0% {
+		background-position-y: 0px;
+	}
+	100% {
+		background-position-y: 449px;
+	}
 }
 
-.stars4{
-    background: url(../img/stars/stars4.png);
-    animation-name: space4;
-    animation-duration: 2.5s;
+.stars4 {
+	background: url(../img/stars/stars4.png);
+	animation-name: space4;
+	animation-duration: 2.5s;
 }
 
 @keyframes space4 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
+	0% {
+		background-position-y: 0px;
+	}
+	100% {
+		background-position-y: 449px;
+	}
 }
 
-.stars5{
-    background: url(../img/stars/stars5.png);
-    animation-name: space5;
-    animation-duration: 20s;
+.stars5 {
+	background: url(../img/stars/stars5.png);
+	animation-name: space5;
+	animation-duration: 20s;
 }
 
 @keyframes space5 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
+	0% {
+		background-position-y: 0px;
+	}
+	100% {
+		background-position-y: 449px;
+	}
 }
 
-.stars6{
-    background: url(../img/stars/stars.png);
-    animation-name: space1;
-    animation-duration: 25s;
+.stars6 {
+	background: url(../img/stars/stars.png);
+	animation-name: space1;
+	animation-duration: 25s;
 }
 
-@keyframes space6 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
-}
-
-.stars7{
-    background: url(../img/stars/stars2.png);
-    animation-name: space2;
-    animation-duration: 40s;
-}
-
-@keyframes space7 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
-}
-
-.stars8{
-    background: url(../img/stars/stars3.png);
-    animation-name: space3;
-    animation-duration: 17s;
-}
-
-@keyframes space8 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
-}
-
-.stars9{
-    background: url(../img/stars/stars4.png);
-    animation-name: space4;
-    animation-duration: 2.5s;
-}
-
-@keyframes space9 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
-}
-
-.stars10{
-    background: url(../img/stars/stars5.png);
-    animation-name: space5;
-    animation-duration: 20s;
-}
-
-@keyframes space10 {
-    0% {  background-position-y: 0px;    }
-    100%   {  background-position-y: 449px; }
-}
-
-
-#career{
-    color: black;
-    background: #f7f5f5;
+#career {
+	color: black;
+	background: #f7f5f5;
 }
 
 ul.timeline {
-    list-style-type: none;
-    position: relative;
+	list-style-type: none;
+	position: relative;
 }
+
 ul.timeline:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
+	content: ' ';
+	background: #d4d9df;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 400;
 }
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
+
+ul.timeline>li {
+	margin: 20px 0;
+	padding-left: 20px;
 }
-ul.timeline > li:before {
+
+ul.timeline>li:before {
     content: ' ';
-    background: #F44336;
+    background: #243252;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #131111;
+    border: 3px solid #f7f5f5;
     left: 20px;
     width: 20px;
     height: 20px;
     z-index: 400;
 }
 
-
-
-#jobs{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2196f3+0,1c53c9+100 */
-    background: #2196f3; /* Old browsers */
-    background: -moz-linear-gradient(top,  #2196f3 0%, #1c53c9 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #2196f3 0%,#1c53c9 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #2196f3 0%,#1c53c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2196f3', endColorstr='#1c53c9',GradientType=0 ); /* IE6-9 */
-}
-
-
-
-#skills{
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f44336+0,e23434+100 */
-background: #f44336; /* Old browsers */
-background: -moz-linear-gradient(top,  #f44336 0%, #e23434 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #f44336 0%,#e23434 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #f44336 0%,#e23434 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f44336', endColorstr='#e23434',GradientType=0 ); /* IE6-9 */
-
-    color: white;   
-    
-}
-.skill{
-    text-align: center;
-}
-
-.skillImg{
-    width: 100px;
-    height: 100px;
-}
-
-.skillTag{
-    margin-bottom: -10px;
-}
-
-#activities{
- 
-}
-
-#documents{
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#03a9f4+0,7105ff+100 */
-background: #03a9f4; /* Old browsers */
-background: -moz-linear-gradient(top,  #03a9f4 0%, #7105ff 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #03a9f4 0%,#7105ff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #03a9f4 0%,#7105ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', endColorstr='#7105ff',GradientType=0 ); /* IE6-9 */
-
-    color: white;      
-}
-
-.docBtn{
-    width:100%;
-    border:3px solid white;
-    padding:10px;
+#jobs {
     color:white;
-    text-align:center;
-    font-size: 20px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2196f3+0,1c53c9+100 */
+	background: #2196f3;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #2196f3 0%, #1c53c9 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2196f3 0%, #1c53c9 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2196f3 0%, #1c53c9 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2196f3', endColorstr='#1c53c9', GradientType=0);
+	/* IE6-9 */
 }
 
-#contact{
-
+#skills {
+	color: white;
 }
 
-.contactInp{
-    border: 3px solid #212529;
-    background: #f9f9f9;
-    width: 100%;
-    border-radius: 10px;
+.skill {
+	text-align: center;
 }
 
-.contactInpTexA{
-    height: 140px;
-    border: 3px solid #212529;
-    background: #f9f9f9;
-    width: 100%;
-    resize: none;
-    border-radius: 10px;
+.skillImg {
+	width: 100px;
+	height: 100px;
 }
 
-#footer{
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#03a9f4+0,7105ff+100 */
-background: #03a9f4; /* Old browsers */
-background: -moz-linear-gradient(top,  #03a9f4 0%, #7105ff 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #03a9f4 0%,#7105ff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #03a9f4 0%,#7105ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', endColorstr='#7105ff',GradientType=0 ); /* IE6-9 */
-
-
-    color: white;     
+.skillTag {
+	margin-bottom: -10px;
 }
+
+#activities {
+    color: #1491f6;
+    background: #f7f5f5;
+}
+
+#documents {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#03a9f4+0,7105ff+100 */
+	background: #03a9f4;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #03a9f4 0%, #7105ff 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #03a9f4 0%, #7105ff 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #03a9f4 0%, #7105ff 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', endColorstr='#7105ff', GradientType=0);
+	/* IE6-9 */
+	color: white;
+}
+
+.docBtn {
+	width: 100%;
+	border: 3px solid white;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+#contact {
+    color: #6d0bff;
+    background: #f7f5f5;
+}
+
+.contactInp {
+	border: 3px solid #6d0bff;
+	background: #f9f9f9;
+	width: 100%;
+    border-radius: 4px;
+    color: #7112ff;
+}
+
+.contactInpTexA {
+	height: 140px;
+	border: 3px solid #6d0bff;
+	background: #f9f9f9;
+	width: 100%;
+	resize: none;
+	border-radius: 4px;
+}
+
+#footer {
+	color: white;
+}
+
 
 /*MEDIA*/
-@media (max-width: 576px){
-    .sectionTitle{
-        font-size:48px;
-    }
+
+@media (max-width: 576px) {
+	.sectionTitle {
+		font-size: 48px;
+	}
 }
+
 
 /* Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) {
-    .sectionTitle{
-        font-size:80px;
-    }
+	.sectionTitle {
+		font-size: 80px;
+	}
 }
+
 
 /* Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) {
-    .sectionTitle{
-        font-size:80px;
-    }
+	.sectionTitle {
+		font-size: 80px;
+	}
 }
+
 
 /* Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) {
-    .sectionTitle{
-        font-size:100px;
-    }
+	.sectionTitle {
+		font-size: 100px;
+	}
 }
 
+
 /* Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1200px) {
-    .sectionTitle{
-        font-size:120px;
-    }
+	.sectionTitle {
+		font-size: 120px;
+	}
 }
 
 
 /*FOOTER*/
+
 .footer-icon {
-    height: 48px;
-    width: 48px;
-    border: 3px solid #fff;
-    border-radius: 1100%;
-    position: relative;
-    left: 50%;
-    margin-left: -22px;
-    margin-bottom: 14px;
-    z-index: 2;
+	height: 48px;
+	width: 48px;
+	border: 3px solid #fff;
+	border-radius: 1100%;
+	position: relative;
+	left: 50%;
+	margin-left: -22px;
+	margin-bottom: 14px;
+	z-index: 2;
 }
 
 .message {
-    background-image: url(../img/message.svg);
-    background-size: contain;
+	background-image: url(../img/message.svg);
+	background-size: contain;
 }
 
 .phone {
-    background-image: url(../img/phone.svg);
-    background-size: contain;
+	background-image: url(../img/phone.svg);
+	background-size: contain;
 }
 
 .footer-label {
-    width: 100%;
-    position: relative;
+	width: 100%;
+	position: relative;
 }
 
 .navbar {
-    position: absolute;
+	position: absolute;
 }
-
