@@ -91,7 +91,7 @@ section {
 
 .astronaut {
 	cursor: pointer;
-	background: url(../img/astronaut/idle1.png);
+	background: url(../img/astronaut/idle1.gif);
 	background-repeat: no-repeat;
 	animation-name: astronaut;
 	animation-duration: 3s;
@@ -257,6 +257,34 @@ ul.timeline>li:before {
 	color: white;
 }
 
+#skills .sectionTitle{
+	color: #ffeb3b;
+}
+
+#skills ul.timeline:before {
+    content: ' ';
+    background: #ffeb3b;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+#skills ul.timeline>li:before {
+    content: ' ';
+    background: #191f2d;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ffeb3b;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
 .skill {
 	text-align: center;
 	padding:10px;
@@ -268,8 +296,12 @@ ul.timeline>li:before {
 	margin-bottom: 20px;
 }
 
+.skillImg:hover{
+	filter: drop-shadow(0px 0px 4px white);
+}
+
 .skillTag {
-	margin-bottom: -10px;
+	margin-bottom: 0px;
 }
 
 #activities {
@@ -293,29 +325,39 @@ ul.timeline>li:before {
 }
 
 #contact {
-    color: #6d0bff;
+    color: #191f2d;
     background: #f7f5f5;
 }
 
 .contactInp {
-	border: 3px solid #6d0bff;
-	background: #f9f9f9;
-	width: 100%;
-    border-radius: 4px;
-    color: #7112ff;
+	border: 3px dashed#191f2d;
+    background: #f7f5f5;
+    width: 100%;
+    color: #191f2d;
+    border-top: none;
+    border-left: none;
 }
 
 .contactInpTexA {
-	height: 140px;
-	border: 3px solid #6d0bff;
-	background: #f9f9f9;
-	width: 100%;
-	resize: none;
-	border-radius: 4px;
+    height: 140px;
+    border: 3px dashed #191f2d;
+    background: #f7f5f5;
+    width: 100%;
+    resize: none;
+    border-top: none;
+    border-left: none;
+}
+
+#contactSend{
+	cursor: pointer;
+    color: #f7f5f5;
+    border: 3px solid #191f2d;
+    background: #191f2d;
 }
 
 #footer {
 	color: white;
+	height:auto;
 }
 
 
