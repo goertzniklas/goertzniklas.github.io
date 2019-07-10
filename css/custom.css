@@ -259,11 +259,13 @@ ul.timeline>li:before {
 
 .skill {
 	text-align: center;
+	padding:10px;
 }
 
 .skillImg {
 	width: 100px;
 	height: 100px;
+	margin-bottom: 20px;
 }
 
 .skillTag {
