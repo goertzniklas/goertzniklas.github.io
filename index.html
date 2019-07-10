@@ -18,7 +18,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/custom.js"></script>
   </head>
 
   <body>
@@ -47,7 +46,7 @@
     <!-- HEADER -->
     <section id="header">
       <div class="space">
-        <div class="astronaut"></div>
+        <div id="astronaut" class="astronaut"></div>
       </div>
       
       <div class="container">
@@ -279,56 +278,42 @@
         </div>
       </div>
       <div class="container contact-form">
-
-        <form method="post">
           <div class="row">
-
             <div class="col-6">
               <p>Betreff:
-              <br/><input class="contactInp" name="reference" /></p>
+              <br/><input id="subject" class="contactInp" name="reference" /></p>
             </div>
 
             <div class="col-6">
-              <p>Your name:
-              <br/><input class="contactInp"  type="text" name="name" /></p>
+              <p>Name:
+              <br/><input id="name" class="contactInp"  type="text" name="name" /></p>
             </div>
 
             <div class="col-6">
-              <p>Your email*:
-              <br/><input class="contactInp" type="email" name="email" /></p>
-            </div>
-
-            <div class="col-6">
-              <p>Your phonenumber:
-              <br/><input class="contactInp"  name="phone" /></p>
-            </div>
-
-            <div class="col-6">
-              <p style="display:none">Leave this empty:
-              <br/><input class="contactInp"  name="url" /></p>
+              <p>Telefon:
+              <br/><input id="phone" class="contactInp"  name="phone" /></p>
             </div>
 
             <div class="col-12">
-              <p>Your message*:
-              <br/><textarea class="contactInpTexA" name="message" rows="10" cols="50"></textarea></p>
+              <p>Nachricht:
+              <br/><textarea id="message" class="contactInpTexA" name="message" rows="10" cols="50"></textarea></p>
             </div>
 
             <div class="col-6">
-              <p><input class="contactInp"  type="submit" value="Send" /></p>
-            </div>
-
-            <div class="col-6">
-              <input type="checkbox" name="dpp" value="value1">
-            </div>
-
-            <div class="col-12">
               <p>
-                Ich habe die<a href="#">Datdatenschutzerklärung</a>gelesen und akzeptiere diese.
+                <input id="contactSend" class="contactInp" type="submit" value="Send" />
               </p>
             </div>
 
+            <div class="col-12">
+              
+                  <input id="contactCheckbox" type="checkbox" name="dpp" value="value1">
+              
+              <span>
+                Ich habe die <a href="#">Datenschutzerklärung</a> gelesen und akzeptiere diese.
+              </span>
+            </div>
           </div>
-        </form>
       </div>
     </section>
 
@@ -344,5 +329,8 @@
         </div>
       </div>
     </section>
+
+    <script src="js/custom.js"></script>
+
   </body>
 </html>

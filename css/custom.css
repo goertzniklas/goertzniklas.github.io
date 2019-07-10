@@ -90,14 +90,15 @@ section {
 }
 
 .astronaut {
-	background: url(../img/astronaut/idle0.png);
+	cursor: pointer;
+	background: url(../img/astronaut/idle1.png);
 	background-repeat: no-repeat;
 	animation-name: astronaut;
-	animation-duration: 7s;
+	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	height: 500px;
-	left: 50%;
+	left: 45%;
 	width: 125px;
 	position: absolute;
 	transform: rotate(3deg)
@@ -108,7 +109,7 @@ section {
 		background-position-y: 50px;
 	}
 	50% {
-		background-position-y: 150px;
+		background-position-y: 100px;
 	}
 	100% {
 		background-position-y: 50px;
@@ -206,12 +207,6 @@ section {
 	}
 }
 
-.stars6 {
-	background: url(../img/stars/stars.png);
-	animation-name: space1;
-	animation-duration: 25s;
-}
-
 #career {
 	color: black;
 	background: #f7f5f5;
@@ -253,20 +248,12 @@ ul.timeline>li:before {
 
 #jobs {
     color:white;
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2196f3+0,1c53c9+100 */
-	background: #2196f3;
-	/* Old browsers */
-	background: -moz-linear-gradient(top, #2196f3 0%, #1c53c9 100%);
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #2196f3 0%, #1c53c9 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #2196f3 0%, #1c53c9 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2196f3', endColorstr='#1c53c9', GradientType=0);
-	/* IE6-9 */
+	background: #2195f2;
+	box-shadow: 0px 0px 0px 2px #2195f2;
 }
 
 #skills {
+	background:#191f2d;
 	color: white;
 }
 
@@ -289,18 +276,9 @@ ul.timeline>li:before {
 }
 
 #documents {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#03a9f4+0,7105ff+100 */
-	background: #03a9f4;
-	/* Old browsers */
-	background: -moz-linear-gradient(top, #03a9f4 0%, #7105ff 100%);
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #03a9f4 0%, #7105ff 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #03a9f4 0%, #7105ff 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a9f4', endColorstr='#7105ff', GradientType=0);
-	/* IE6-9 */
+	background: #2195f2;
 	color: white;
+	box-shadow: 0px 0px 0px 2px #2195f2;
 }
 
 .docBtn {
