@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
 body {
-	font-family: 'Open Sans', sans-serif;
-    
-	background:#191f2d;
-
-    
+	font-family: 'Open Sans', sans-serif; 
+	background:#191f2d; 
 }
 
 section {
@@ -79,6 +76,8 @@ section {
 	font-weight: bold;
 	transform: skewY(-3deg);
 }
+
+
 
 .postTitle {}
 
@@ -208,7 +207,7 @@ section {
 }
 
 #career {
-	color: black;
+	color: #191f2d;
 	background: #f7f5f5;
 }
 
@@ -287,7 +286,6 @@ ul.timeline>li:before {
 
 .skill {
 	text-align: center;
-	padding:10px;
 }
 
 .skillImg {
@@ -321,7 +319,6 @@ ul.timeline>li:before {
 	padding: 10px;
 	color: white;
 	text-align: center;
-	font-size: 20px;
 }
 
 #contact {
@@ -363,15 +360,37 @@ ul.timeline>li:before {
 
 /*MEDIA*/
 
-@media (max-width: 576px) {
+@media (max-width: 353px){
 	.sectionTitle {
-		font-size: 48px;
+		font-size: 37px!important;
+	}
+
+	.docBtn {
+		border:0!important;
+		border-bottom:3px solid white!important;
+		padding:0!important;
+		padding-bottom:5px!important;
+	}
+
+	.col{
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 
+/* X-Small devices (portrait phones, 576px and less)*/
+@media (max-width: 576px) {
+	.sectionTitle {
+		font-size: 44px;
+	}
+
+	.col{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
 
 /* Small devices (landscape phones, 576px and up)*/
-
 @media (min-width: 576px) {
 	.sectionTitle {
 		font-size: 80px;
@@ -380,34 +399,28 @@ ul.timeline>li:before {
 
 
 /* Medium devices (tablets, 768px and up)*/
-
 @media (min-width: 768px) {
 	.sectionTitle {
 		font-size: 80px;
 	}
+
 }
 
-
 /* Large devices (desktops, 992px and up)*/
-
 @media (min-width: 992px) {
 	.sectionTitle {
 		font-size: 100px;
 	}
 }
 
-
 /* Extra large devices (large desktops, 1200px and up)*/
-
 @media (min-width: 1200px) {
 	.sectionTitle {
 		font-size: 120px;
 	}
 }
 
-
 /*FOOTER*/
-
 .footer-icon {
 	height: 48px;
 	width: 48px;
