@@ -5,10 +5,28 @@ document.getElementById("contactSend").addEventListener("click", function(){
     var message = document.getElementById("message").value;
     var mailto = ("mailto:goertz-niklas@posteo.net?subject=" + subject + "&body=" + message + "%0D%0A%0D%0A Tel: " + phone + "%0D%0A Name: " + name + ";");     
     
+    /*
+    if(subject.length <= 20 && subject != ""){
+        console.log("subject ok");
+    }else{
+        console.log("subject too long or empty!");
+    }
 
-    
-    
+    if(name.length <= 20 && name != ""){
+        console.log("name ok");
+    }else{
+        console.log("name too long or empty!");
+    }
+
+    if(message.length <= 200 && message != ""){
+        console.log("name ok");
+    }else{
+        console.log("message too long, empty or not a word!");
+    }
+    */
+   
     window.location.href = mailto;
+    
 }); 
 
 /*
