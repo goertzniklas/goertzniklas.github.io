@@ -327,22 +327,18 @@ ul.timeline>li:before {
 }
 
 .contactInp {
-	border: 3px dashed#191f2d;
+    border: 2px solid #191f2d;
     background: #f7f5f5;
     width: 100%;
     color: #191f2d;
-    border-top: none;
-    border-left: none;
 }
 
 .contactInpTexA {
     height: 140px;
-    border: 3px dashed #191f2d;
+    border: 2px solid #191f2d;
     background: #f7f5f5;
     width: 100%;
     resize: none;
-    border-top: none;
-    border-left: none;
 }
 
 #contactSend{
@@ -368,15 +364,29 @@ ul.timeline>li:before {
 /*MEDIA*/
 
 @media (max-width: 353px){
+	.col-md-6{
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+
+	.container{
+		padding-left:20px!important;
+		padding-right:20px!important;
+	}
+
+	ul.timeline>li {
+		padding-left: 5px!important;
+	}
+
 	.sectionTitle {
 		font-size: 37px!important;
 	}
 
 	.docBtn {
 		border:0!important;
-		border-bottom:3px solid white!important;
-		padding:0!important;
-		padding-bottom:5px!important;
+		border: 3px solid white!important;
+		padding: 0!important;
+		padding-bottom: 3px!important;
 	}
 
 	.col{
@@ -398,6 +408,20 @@ ul.timeline>li:before {
 
 /* X-Small devices (portrait phones, 576px and less)*/
 @media (max-width: 576px) {
+
+	ul.timeline>li {
+		padding-left: 5px!important;
+	}
+	.container{
+		padding-left:20px!important;
+		padding-right:20px!important;
+	}
+
+	.col-md-6{
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+
 	.sectionTitle {
 		font-size: 44px;
 	}
