@@ -1,17 +1,17 @@
-#Website
+# Website
 My new personal website
 
-#Description
+# Description
 hosted on https://whathaveidone.de
 
-#Development
-*Source hosted at GitHub
-*Report issues, questions, feature requests on GitHub Issues
+# Development
+* Source hosted at GitHub
+* Report issues, questions, feature requests on GitHub Issues
 
-#Authors
-*Niklas Görtz
+# Authors
+* Niklas Görtz
 
-#License
+# License
 MIT License
 
 Copyright (c) 2019 Niklas Görtz
