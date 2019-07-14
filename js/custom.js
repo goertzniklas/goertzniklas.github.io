@@ -29,13 +29,11 @@ document.getElementById("contactSend").addEventListener("click", function(){
     
 }); 
 
-/*
+
 document.getElementById("astronaut").addEventListener("click", function(){ 
     astronaut.style.backgroundImage = "url(../website/img/astronaut/idle0.png)";
 });
-*/ 
 
-/*
 const args = [
     `%c  %c  %c  %c  %c  %c  %c  %c  %c    `,
 
@@ -50,6 +48,35 @@ const args = [
     'font-size:200px; background-repeat:no-repeat; background-image:url(https://i.giphy.com/media/nNxT5qXR02FOM/giphy.webp);'			
 ];
 window.console.log.apply(console, args);
-*/
+
+
+function more() {
+    var dots1 = document.getElementById("dots1");
+    var moreText1 = document.getElementById("more1");
+    var btnText1 = document.getElementById("myBtn1");
+
+    var dots2 = document.getElementById("dots2");
+    var moreText2 = document.getElementById("more2");
+    var btnText2 = document.getElementById("myBtn2");    
+    
+    if(dots1.style.display === "none"){
+        dots1.style.display = "inline";     
+        btnText1.innerHTML = "Zeig mir mehr!"; 
+        moreText1.style.display = "none";      
+
+        dots2.style.display = "inline";     
+        btnText2.innerHTML = "Zeig mir mehr!"; 
+        moreText2.style.display = "none";        
+    } 
+    else{
+        dots1.style.display = "none";
+        btnText1.innerHTML = "Zeig mir weniger..."; 
+        moreText1.style.display = "inline";    
+
+        dots2.style.display = "none";
+        btnText2.innerHTML = "Zeig mir weniger..."; 
+        moreText2.style.display = "inline";          
+    }
+}
 
 
