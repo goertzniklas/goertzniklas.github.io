@@ -5,7 +5,7 @@ My new personal website
 hosted on https://whathaveidone.de
 
 # Development
-* Source hosted at GitHub
+* Source hosted at [GitHub](https://github.com/ "GitHub")
 * Report issues, questions, feature requests on GitHub Issues
 
 # Authors
