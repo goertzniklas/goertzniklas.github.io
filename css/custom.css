@@ -372,7 +372,7 @@ ul.timeline>li:before {
 }
 
 #activities {
-    color: #1491f6;
+    color: #4caf50;
     background: #f7f5f5;
 }
 
@@ -619,4 +619,36 @@ ul.timeline>li:before {
 
 .navbar {
 	position: absolute;
+}
+
+.hobbyHeading{
+    color: #3c863f;
+}
+
+.hobbyText{
+    color: #4a4a4a;
+}
+
+#activities ul.timeline:before {
+    content: ' ';
+    background: #4CAF50;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+#activities ul.timeline>li:before {
+    content: ' ';
+    background: #3c863f;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
 }
