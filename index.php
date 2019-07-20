@@ -1,6 +1,6 @@
 
   
-    <?php include("header.html");?>
+    <?php include("header.php");?>
  
 
   <body>
@@ -10,7 +10,7 @@
     <div class="stars4"></div>
     <div class="stars5"></div>
 
-    <?php include("nav.html");?>
+    <?php include("nav.php");?>
 
     <!-- HEADER -->
     <section id="header">
@@ -437,7 +437,7 @@
     </section>
 
 
-    <?php include("footer.html");?>
+    <?php include("footer.php");?>
 
 
     <script src="js/custom.js"></script>
