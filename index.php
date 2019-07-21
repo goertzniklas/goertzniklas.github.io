@@ -315,31 +315,44 @@
                 <li>
                   <p class="hobbyHeading">MUSIK | GITARRE</p>
                   <p class="hobbyText">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    Musik ist für mich das wichtigste Hobby. Schon bevor ich mit 13 meine erste Gitarre bekommen habe, habe ich Musik gemacht. 
+                    In der Grundschule war es mit Dance eJay, eine Software um elektronische Musik zu machen - mit meiner ersten Gitarre wurde es dann ernster.
+                    In der Schulband fing ich an Schlagzeug, Klavier sowie Bass zu spielen - später dann MPC, Turntables - you name it.
+                    Aber nicht nur Musik machen ist mir wichtig - Musik hören ist für mich auf einer Stufe.
+                    Du willst hören was ich höre? - <a href="https://open.spotify.com/user/doodlesdoofles?si=YLbs-U_7S8ueDkKSAeLuuA"> Hier geht's zu meinem Spotify Profil</a>!
                   </p>
                 </li>
                 <li>
-                  <p class="hobbyHeading">WEBDESIGN | GRAFIKBEARBEITUNG</p>
+                  <p class="hobbyHeading">PROGRAMMIEREN | WEBDESIGN | GRAFIKBEARBEITUNG</p>
                   <p class="hobbyText">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    Computer und die dadurch entstehenden Möglichkeiten sind für mich jedes Mal aufs neue erstaunlich.
+                    Schon in der Realschule fing ich an am PC zu zeichnen. Webdesign und Grafikbearbeitung wie ich es heute beruflich mache kamen dann erst in meiner Ausbildung.
+                    HTML und CSS haben mich so sehr gefasst, dass ich neben statischen Websites auch Logik schreiben wollte. Mit Ruby fing dann alles an.
+                    Mit den ES6 Standards habe ich zahlreiche Javascript Projekte angefangen und später dann den Entschluss gefasst, Programmierer zu werden.
+                    Eine kleine Auswahl an Projekten findest du auf meinem <a href="https://github.com/dooflesdoodles"> GitHub</a> Profil. 
                   </p>
                 </li>
                 <li>
                   <p class="hobbyHeading">SCHWIMMEN</p>
                   <p class="hobbyText">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    Schwimmen hat mir schon immer gefallen - heute mache ich es als Sport / Ausgleich zur täglichen Büroarbeit.
                   </p>
                 </li>
                 <li>
                   <p class="hobbyHeading">LESEN</p>
                   <p class="hobbyText">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    Als ich mein erstes Buch geschenkt bekommen habe dachte ich mir: Ohje lesen? - Wie sich dann allerdings herausstellte, gefällt mir lesen ziemlich gut.
+                    Romane lese ich zwar immer seltener, aber ein paar Science Fiction Bücher sind auch heute immer wieder dabei.
                   </p>
                 </li>
                 <li>
-                  <p class="hobbyHeading">EXPLORING</p>
+                  <p class="hobbyHeading">EXPLORING | WANDERN | BERGSTEIGEN | MOTORRAD</p>
                   <p class="hobbyText">
-                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    Es scheint fast, als ob 90% meiner Hobbys aus meiner Kindheit stammen. 
+                    Klettern, Wandern und Bergsteigen sowie verlassene Orte erkunden habe ich früher schon mit meinen Freunden gemacht.
+                    Heute ist es selbstverständlich legaler und sicherer geworden.
+                    Motorrad fing für mich mit 15 an - eigentlich war es Mofa fahren. Von den 49cm³ "Fahrrädern" hatte ich drei Stück. Mit meinen Freunden waren wir eine richtige Mofa Gang.
+                    Heute sind es ein paar Kubik mehr, den Spaß daran mit meinen Freunden eine Runde zu drehen, werde ich wohl nie verlieren.
                   </p>
                 </li>
               </ul>
