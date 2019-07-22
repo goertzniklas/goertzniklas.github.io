@@ -142,7 +142,13 @@
               <p class="text-center preTitle">KNOW-HOW</p>
               <h1 class="text-center sectionTitle">SKILLS</h1>
             </div>
-  
+
+            <div class="col-12">
+              <p class="preTitle"></p>
+              <h2 class="text-center postTitle">Womit ich Erfahrung gesammelt habe.</h2>
+              <div class="mt-5"></div>
+            </div> 
+
             <div class="col">
               <div class="skill">
                 <p class="skillTag">JAVA</p>
@@ -155,6 +161,12 @@
                 <img class="skillImg" src="img/logos/js.png"><img>
               </div>
             </div>
+            <div class="col">
+              <div class="skill">
+                <p class="skillTag">VUEJS</p>
+                <img class="skillImg" src="img/logos/vjs.png"><img>
+              </div>
+            </div>            
             <div class="col">
               <div class="skill">
                 <p class="skillTag">HTML</p>
@@ -227,61 +239,42 @@
                 <img class="skillImg" src="img/logos/git.png"><img>
               </div>
             </div>
-  
-            <div class="col-12">
-              <p class="preTitle"></p>
-              <h2 class="text-center postTitle">Womit ich Erfahrung gesammelt habe.</h2>
-              <div class="mt-5"></div>
-            </div>
-    
-            
+
             <div id="more2">
               <div class="col-md-6">
                 <ul class="timeline">
                   <li>
-                    <p>2019</p>
+                    <p class="skillHeading">PROGRAMMIERSPRACHEN</p>
                     <p>
-                      Beginn der Erlernung der Programmiersprache Java.
+                      Java ist die neuste Sprache die ich erlernt habe.
+                      Auf <a href="https://github.com/dooflesdoodles">GitHub</a> kannst du dir meine Hyperskill Projekte anschauen.
                     </p>
                   </li>
                   <li>
-                    <p>2016</p>
+                    <p class="skillHeading">AUSZEICHNUNGSSPRACHEN</p>
                     <p>
-                      Seit dem Q4 2016 arbeite ich als kaufmännischer Mitarbeiter
-
-                        in der IT-Abteilung von Sportwelt Scherer in Übach-Palenberg. Neben meinen Tätigkeiten konnte ich in dieser Zeit weitere Aufgaben umsetzen:
-                        <br><br>
-                        - Mitarbeit bei der Umsetzung der neuen Datenschutz-Grundverordnung. Erstellung eines Datenschutzkonzeptes und des Verzeichnisses von Verarbeitungstätigkeiten.
-                        - Optimierung der Kassiervorgänge über das plentymarkets POS-Modul.
-                        - Optimierung der Versandabwicklung über die Schnittstelle AX4.
-                        - Erstellung eines Mitarbeiterbeurteilungs-Systems.
-                        <br><br>
-                        Weitere Informationen zu meinem aktuellen Job im Zwischenzeugnis.
-                      </p>
+                      HTML5 & CSS3
+                    </p>
+                  </li>
+                  <li>
+                    <p class="skillHeading">VERSIONSVERWALTUNG</p>
+                    <p>
+                      Git in GitHub & Gitkraken
+                    </p>
                   </li>
                 </ul>
               </div>
               
     
               <div class="col-md-6">
-               
                 <ul class="timeline">
                   <li>
-                    <p>2014</p>
+                    <p class="skillHeading">SKRIPTSPRACHEN</p>
                     <p>
-                        Entwicklung einer Tauschbörse, bei der Kunden Artikel hochladen können und diese direkt oder zeitversetzt mit Hilfe einer Tauschwärhung tauschen. Erstellung des Online Marktplatzes mit dem Grid-System Bootstrap. Für die Bearbeitung wurde Gitkraken eingesetzt. Nähere Erlernung von Javascript.
-                      </p>
-                  </li>
-                  <li>
-                    <p>2013</p>
-                    <p>
-                      Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei der Firma Sodermanns Automobile GmbH. Neben allgemeinen Büro- und Verwaltungsaufgaben mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Verwaltung und Optimierung der Onlinepräszenz.
-                    </p>
-                  </li>
-                  <li>
-                    <p>2011</p>
-                    <p>
-                      Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...
+                      Gestartet habe ich 2015 mit Ruby on Rails für ein Tauschbörsenprojet.
+                      Mit PHP und Python habe ich dann unter anderem RaspberryPi Projekte geschrieben. 
+                      Javascript kam dann mit den es6 Standarts zusammen mit Node und JQuery dazu.
+                      Beruflich nutze ich Twig zusammen mit VueJS.
                     </p>
                   </li>
                 </ul>
@@ -315,20 +308,21 @@
                 <li>
                   <p class="hobbyHeading">MUSIK | GITARRE</p>
                   <p class="hobbyText">
-                    Musik ist für mich das wichtigste Hobby. Schon bevor ich mit 13 meine erste Gitarre bekommen habe, habe ich Musik gemacht. 
+                    Musik ist für mich das wichtigste Hobby. Schon bevor ich mit 13 meine erste Gitarre bekommen habe, spielte ich Musik. 
                     In der Grundschule war es mit Dance eJay, eine Software um elektronische Musik zu machen - mit meiner ersten Gitarre wurde es dann ernster.
-                    In der Schulband fing ich an Schlagzeug, Klavier sowie Bass zu spielen - später dann MPC, Turntables - you name it.
-                    Aber nicht nur Musik machen ist mir wichtig - Musik hören ist für mich auf einer Stufe.
-                    Du willst hören was ich höre? - <a href="https://open.spotify.com/user/doodlesdoofles?si=YLbs-U_7S8ueDkKSAeLuuA"> Hier geht's zu meinem Spotify Profil</a>!
+                    In der Schulband konnte ich Schlagzeug, Klavier oder auch E-Bass spielen - später dann MPC, Turntables - you name it.
+                    Aber nicht nur Musik machen ist mir wichtig - Musik hören ist für mich auf einem Level.
+                    Du willst hören was ich höre? - <a href="https://open.spotify.com/user/doodlesdoofles?si=YLbs-U_7S8ueDkKSAeLuuA"> Hier geht's zu meinem Spotify Profil!</a>
                   </p>
                 </li>
                 <li>
                   <p class="hobbyHeading">PROGRAMMIEREN | WEBDESIGN | GRAFIKBEARBEITUNG</p>
                   <p class="hobbyText">
-                    Computer und die dadurch entstehenden Möglichkeiten sind für mich jedes Mal aufs neue erstaunlich.
-                    Schon in der Realschule fing ich an am PC zu zeichnen. Webdesign und Grafikbearbeitung wie ich es heute beruflich mache kamen dann erst in meiner Ausbildung.
-                    HTML und CSS haben mich so sehr gefasst, dass ich neben statischen Websites auch Logik schreiben wollte. Mit Ruby fing dann alles an.
-                    Mit den ES6 Standards habe ich zahlreiche Javascript Projekte angefangen und später dann den Entschluss gefasst, Programmierer zu werden.
+                    Computer und die dadurch entstehenden Möglichkeiten sind für mich jedes Mal auf ein Neues erstaunlich.
+                    Schon in der Realschule fing ich an am PC zu zeichnen, oder configs zu ändern.
+                    Webdesign wie ich es heute beruflich mache kamen neben meiner Ausbildung mit dem oben genannten Tauschbörsen-Projekt.
+                    Nach einem Jahr HTML und CSS war klar, dass ich auch Backend Sprachen lernen musste - Ruby on Rails gelernt - Der Payoff war groß.
+                    Mit den ES6 Standards habe ich zahlreiche Javascript Projekte erstellt. Java war der nächste logische Schritt.
                     Eine kleine Auswahl an Projekten findest du auf meinem <a href="https://github.com/dooflesdoodles"> GitHub</a> Profil. 
                   </p>
                 </li>
@@ -342,7 +336,7 @@
                   <p class="hobbyHeading">LESEN</p>
                   <p class="hobbyText">
                     Als ich mein erstes Buch geschenkt bekommen habe dachte ich mir: Ohje lesen? - Wie sich dann allerdings herausstellte, gefällt mir lesen ziemlich gut.
-                    Romane lese ich zwar immer seltener, aber ein paar Science Fiction Bücher sind auch heute immer wieder dabei.
+                    Romane lese ich zwar immer seltener, aber ein paar Science Fiction Bücher sind auch heute immer wieder mal dabei.
                   </p>
                 </li>
                 <li>
@@ -351,8 +345,9 @@
                     Es scheint fast, als ob 90% meiner Hobbys aus meiner Kindheit stammen. 
                     Klettern, Wandern und Bergsteigen sowie verlassene Orte erkunden habe ich früher schon mit meinen Freunden gemacht.
                     Heute ist es selbstverständlich legaler und sicherer geworden.
-                    Motorrad fing für mich mit 15 an - eigentlich war es Mofa fahren. Von den 49cm³ "Fahrrädern" hatte ich drei Stück. Mit meinen Freunden waren wir eine richtige Mofa Gang.
-                    Heute sind es ein paar Kubik mehr, den Spaß daran mit meinen Freunden eine Runde zu drehen, werde ich wohl nie verlieren.
+                    Motorrad fing für mich mit 15 an - eigentlich war es Mofa fahren. Von den 49cm³ "Fahrrädern" hatte ich drei Stück. 
+                    Meinen Freunden und ich waren wir eine richtige Mofa Gang.
+                    Heute sind es ein paar Kubik mehr, den Spaß daran mit meinen Freunden eine Runde zu drehen, werde ich aber wohl nie verlieren.
                   </p>
                 </li>
               </ul>
@@ -390,7 +385,7 @@
           <div class="col-6">
             <a href="#">
               <div class="docBtn">
-                Zeugnisse
+                Zertifikate
               </div>
             </a>
           </div>
