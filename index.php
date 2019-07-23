@@ -247,7 +247,7 @@
                     <p class="skillHeading">PROGRAMMIERSPRACHEN</p>
                     <p>
                       Java ist die neuste Sprache die ich erlernt habe.
-                      Auf <a href="https://github.com/dooflesdoodles">GitHub</a> kannst du dir meine Hyperskill Projekte anschauen.
+                      Mit Java habe ich einen <a href="#">Bierbot</a>, einen <a href="#">Texteditor</a>, ein <a href="#">De/Encryption Tool</a> und andere kleine Projekte erstellt.
                     </p>
                   </li>
                   <li>
@@ -259,7 +259,8 @@
                   <li>
                     <p class="skillHeading">VERSIONSVERWALTUNG</p>
                     <p>
-                      Git in GitHub & Gitkraken
+                      Git habe ich das erste mal 2016 mit dem GitKraken GUI genutzt.
+                      Heute nutze ich Git hauptsächlich direkt aus der Konsole oder dem IDE heraus.
                     </p>
                   </li>
                 </ul>
