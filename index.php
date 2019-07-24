@@ -247,20 +247,25 @@
                     <p class="skillHeading">PROGRAMMIERSPRACHEN</p>
                     <p>
                       Java ist die neuste Sprache die ich erlernt habe.
-                      Mit Java habe ich einen <a href="#">Bierbot</a>, einen <a href="#">Texteditor</a>, ein <a href="#">De/Encryption Tool</a> und andere kleine Projekte erstellt.
+                      Mit Java und <a href="#">Hyperskill</a> habe ich einen <a href="#">Texteditor</a>, ein <a href="#">De/Encryption Tool</a> oder auch ein <a href="#">Digital Recognition</a> Tool, geschrieben.
+                      Außerdem habe ich für meine Bierbrauenden Geschwister einen <a href="#">Bierbot</a> programmiert.
+                      Mehr Informationen zu meinen einzelnen Java Projekten findest du auf <a href="#">GitHub.com</a>.
                     </p>
                   </li>
                   <li>
                     <p class="skillHeading">AUSZEICHNUNGSSPRACHEN</p>
                     <p>
-                      HTML5 & CSS3
+                      HTML5 & CSS3 sind für viele Programmierer der Einstieg. Für mich war es nicht anders. 
+                      Mit Sass kamen meine ersten Funktionen, Variablen und Schleifen ins Spiel.
+                      Auch wenn ich heute mehr Freude an Logik Programmen habe, spiele ich immer wieder gerne mit HTMl & CSS.
+                      Bootstrap hilft mir schnell und Projektorientiert zu arbeiten.
                     </p>
                   </li>
                   <li>
                     <p class="skillHeading">VERSIONSVERWALTUNG</p>
                     <p>
                       Git habe ich das erste mal 2016 mit dem GitKraken GUI genutzt.
-                      Heute nutze ich Git hauptsächlich direkt aus der Konsole oder dem IDE heraus.
+                      Heute nutze ich Git hauptsächlich direkt aus der Konsole oder der IDE heraus.
                     </p>
                   </li>
                 </ul>
@@ -274,10 +279,17 @@
                     <p>
                       Gestartet habe ich 2015 mit Ruby on Rails für ein Tauschbörsenprojet.
                       Mit PHP und Python habe ich dann unter anderem RaspberryPi Projekte geschrieben. 
-                      Javascript kam dann mit den es6 Standarts zusammen mit Node und JQuery dazu.
+                      Javascript kam dann mit den es6 Standarts zusammen mit NodeJS und JQuery dazu.
                       Beruflich nutze ich Twig zusammen mit VueJS.
                     </p>
                   </li>
+                  <li>
+                    <p class="skillHeading">DATENBANKEN</p>
+                    <p>
+                      Meine ersten Datenbanken waren .txt Dateien. Das ist nicht nur umständlich, sondern auch einfach falsch.
+                      Mit TinyDB konnte ich für kleine JS Anwendungen erste echte Datenbanken nutzen. MongoDB habe ich ebenfalls  so kennengelernt.
+                    </p>
+                  </li>                  
                 </ul>
               </div>
             </div> 
