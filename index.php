@@ -117,15 +117,15 @@
             <h2 class="text-center postTitle">Verteilung meiner Aufgaben.</h2>
             <div class="mt-5"></div>
           </div>
-          <div class="col-6 text-center">
+          <div class="col-6 text-center jobsTile">
             SPORTWELT SCHERER<br>
             2,5 Jahre<br>
             IT-Abteilung
           </div>
-          <div class="col-6 text-center">
+          <div class="col-6 text-center jobsTile">
             SODERMANNS AUTOMOBILE GMBH<br>
             3 Jahre<br>
-            Ausbildung
+            Ausbildung Bürokaufmann
           </div>
           <div class="col-12">
             <div class="diagram"></div>
