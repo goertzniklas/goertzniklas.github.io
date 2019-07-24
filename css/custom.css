@@ -320,6 +320,15 @@ ul.timeline>li:before {
 	box-shadow: 0px 0px 0px 2px #2195f2;
 }
 
+.jobsTile{
+    border: 2px solid #3c90d4;
+    border-radius: 5px;
+    background: #41a8fb;
+    box-shadow: 0px 0px 10px #1e6ba9;
+    height: 100px;
+    padding-top: 10px;
+}
+
 #skills {
 	background:#191f2d;
 	color: white;
