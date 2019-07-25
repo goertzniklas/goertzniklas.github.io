@@ -1,6 +1,6 @@
 
   
-    <?php include("header.php");?>
+  <?php include("header.php");?>
  
 
   <body>
@@ -117,15 +117,19 @@
             <h2 class="text-center postTitle">Verteilung meiner Aufgaben.</h2>
             <div class="mt-5"></div>
           </div>
-          <div class="col-6 text-center jobsTile">
-            SPORTWELT SCHERER<br>
-            2,5 Jahre<br>
-            IT-Abteilung
+          <div class="col-6 text-center">
+            <div class="jobsTile">
+              SPORTWELT SCHERER<br>
+              2,5 Jahre<br>
+              IT-Abteilung
+            </div>
           </div>
-          <div class="col-6 text-center jobsTile">
-            SODERMANNS AUTOMOBILE GMBH<br>
-            3 Jahre<br>
-            Ausbildung Bürokaufmann
+          <div class="col-6 text-center">
+            <div class="jobsTile">            
+              SODERMANNS AUTOMOBILE GMBH<br>
+              3 Jahre<br>
+              Ausbildung Bürokaufmann
+            </div>            
           </div>
           <div class="col-12">
             <div class="diagram"></div>
@@ -391,14 +395,14 @@
           <div class="col-6">
             <a href="#">
               <div class="docBtn">
-                Lebenslauf
+                LEBENSLAUF
               </div>
             </a>
           </div>
           <div class="col-6">
             <a href="#">
               <div class="docBtn">
-                Zertifikate
+                ZERTIFIKATE
               </div>
             </a>
           </div>

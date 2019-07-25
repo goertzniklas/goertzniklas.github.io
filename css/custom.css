@@ -3,6 +3,9 @@
 body {
 	font-family: 'Open Sans', sans-serif; 
 	background:#191f2d; 
+
+	background-image:url(../img/nebula_mobile.jpg);
+	background-size: contain;
 }
 
 .back-to-top {
@@ -315,18 +318,17 @@ ul.timeline>li:before {
 }
 
 #jobs {
-    color:white;
-	background: #2195f2;
-	box-shadow: 0px 0px 0px 2px #2195f2;
+    color: white;
+    background: #0e73ee;
+    box-shadow: 0px 0px 0px 2px #0e73ee;
 }
 
 .jobsTile{
-    border: 2px solid #3c90d4;
+    border: 2px solid #66a7f5;
     border-radius: 5px;
-    background: #41a8fb;
-    box-shadow: 0px 0px 10px #1e6ba9;
-    height: 100px;
-    padding-top: 10px;
+    background: #66a7f5;
+    box-shadow: 0px 3px 10px #1e6ba9;
+    padding-top: 7px;
 }
 
 #skills {
@@ -390,9 +392,10 @@ ul.timeline>li:before {
 }
 
 #documents {
-	background: #2195f2;
-	color: white;
-	box-shadow: 0px 0px 0px 2px #2195f2;
+    color: white;
+    box-shadow: 0px 0px 0px 2px #070f1c;
+    background: url(../img/nebula_mobile.jpg);
+    background-attachment: fixed;
 }
 
 .docBtn {
@@ -570,6 +573,16 @@ ul.timeline>li:before {
 		display:none;
 	}
 
+	body{
+		background-image:url(../img/nebula.jpg);
+	}
+
+	#documents {
+		color: white;
+		box-shadow: 0px 0px 0px 2px #070f1c;
+		background: url(../img/nebula.jpg);
+		background-attachment: fixed;
+	}	
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -585,6 +598,17 @@ ul.timeline>li:before {
 	#dots1, #myBtn1, #dots2, #myBtn2, #dots3, #myBtn3{
 		display:none;
 	}
+
+	body{
+		background-image:url(../img/nebula.jpg);
+	}	
+
+	#documents {
+		color: white;
+		box-shadow: 0px 0px 0px 2px #070f1c;
+		background: url(../img/nebula.jpg);
+		background-attachment: fixed;
+	}	
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -599,6 +623,17 @@ ul.timeline>li:before {
 
 	#dots1, #myBtn1, #dots2, #myBtn2, #dots3, #myBtn3{
 		display:none;
+	}
+
+	body{
+		background-image:url(../img/nebula.jpg);
+	}
+
+	#documents {
+		color: white;
+		box-shadow: 0px 0px 0px 2px #070f1c;
+		background: url(../img/nebula.jpg);
+		background-attachment: fixed;
 	}
 }
 
@@ -635,7 +670,7 @@ ul.timeline>li:before {
 }
 
 .hobbyHeading{
-    color: #3c863f;
+    color: #2e6330;
 }
 
 .hobbyText{
@@ -644,7 +679,7 @@ ul.timeline>li:before {
 
 #activities ul.timeline:before {
     content: ' ';
-    background: #4CAF50;
+    background: #2e6330;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -655,11 +690,11 @@ ul.timeline>li:before {
 
 #activities ul.timeline>li:before {
     content: ' ';
-    background: #3c863f;
+    background: #2e6330;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #4CAF50;
+    border: 3px solid #2e6330;
     left: 20px;
     width: 20px;
     height: 20px;
