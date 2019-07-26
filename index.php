@@ -321,6 +321,8 @@
 
 
             <div id="more3">
+
+            <div class="col-md-6">
               <ul class="timeline">
                 <li>
                   <p class="hobbyHeading">MUSIK | GITARRE</p>
@@ -343,6 +345,11 @@
                     Eine kleine Auswahl an Projekten findest du auf meinem <a href="https://github.com/dooflesdoodles"> GitHub</a> Profil. 
                   </p>
                 </li>
+              </ul>
+            </div>
+
+            <div class="col-md-6">
+              <ul class="timeline">
                 <li>
                   <p class="hobbyHeading">SCHWIMMEN</p>
                   <p class="hobbyText">
@@ -368,6 +375,7 @@
                   </p>
                 </li>
               </ul>
+              </div>
             </div>
           </div>
 

@@ -5,7 +5,8 @@ body {
 	background:#191f2d; 
 
 	background-image:url(../img/nebula_mobile.jpg);
-	background-size: contain;
+    background-size: auto 800px;
+    background-attachment: fixed;
 }
 
 .back-to-top {
@@ -281,6 +282,7 @@ section {
 #career {
 	color: #191f2d;
 	background: #f7f5f5;
+	padding-bottom: 0px;
 }
 
 ul.timeline {
@@ -318,17 +320,18 @@ ul.timeline>li:before {
 }
 
 #jobs {
-    color: white;
-    background: #0e73ee;
-    box-shadow: 0px 0px 0px 2px #0e73ee;
+    color: #191f2d;
+    background: #f7f5f5;
+    box-shadow: 0px 0px 0px 2px #f7f5f5;
 }
 
 .jobsTile{
-    border: 2px solid #66a7f5;
+    border: 2px solid #191f2d;
     border-radius: 5px;
-    background: #66a7f5;
-    box-shadow: 0px 3px 10px #1e6ba9;
+    background: #191f2d;
+    box-shadow: 0px 3px 10px #191f2d;
     padding-top: 7px;
+    color: white;
 }
 
 #skills {
@@ -407,30 +410,33 @@ ul.timeline>li:before {
 }
 
 #contact {
-    color: #191f2d;
+    color: #0e73ee;
     background: #f7f5f5;
 }
 
 .contactInp {
-    border: 2px solid #191f2d;
-    background: #f7f5f5;
+	border: 2px solid #dedede;
+    border-radius: 4px;
+    background: #fbfbfb;
     width: 100%;
     color: #191f2d;
 }
 
 .contactInpTexA {
+	border: 2px solid #dedede;
+    border-radius: 4px;
+    background: #fbfbfb;	
     height: 140px;
-    border: 2px solid #191f2d;
-    background: #f7f5f5;
     width: 100%;
     resize: none;
 }
 
 #contactSend{
-	cursor: pointer;
+    cursor: pointer;
     color: #f7f5f5;
-    border: 3px solid #191f2d;
-    background: #191f2d;
+    border: 3px solid #0e73ee;
+    background: #0e73ee;
+    border-radius: 5px;
 }
 
 #footer {
@@ -484,6 +490,7 @@ ul.timeline>li:before {
 	.docBtn {
 		border:0!important;
 		border: 3px solid white!important;
+		border-radius: 5px;
 		padding: 0!important;
 		padding-bottom: 3px!important;
 	}
@@ -575,6 +582,8 @@ ul.timeline>li:before {
 
 	body{
 		background-image:url(../img/nebula.jpg);
+		background-attachment: fixed;
+		background-size: 100%;
 	}
 
 	#documents {
@@ -601,6 +610,8 @@ ul.timeline>li:before {
 
 	body{
 		background-image:url(../img/nebula.jpg);
+		background-attachment: fixed;
+		background-size: 100%;
 	}	
 
 	#documents {
@@ -627,6 +638,8 @@ ul.timeline>li:before {
 
 	body{
 		background-image:url(../img/nebula.jpg);
+		background-attachment: fixed;
+		background-size: 100%;
 	}
 
 	#documents {
