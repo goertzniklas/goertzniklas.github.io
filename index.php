@@ -1,8 +1,5 @@
-
-  
   <?php include("header.php");?>
  
-
   <body>
     <div class="stars1"></div>
     <div class="stars2"></div>
@@ -29,7 +26,7 @@
               Mein Name ist Niklas Görtz. 
               Ich bin 26 Jahre alt und wohne aktuell in einem besinnlichen Örtchen Namens Haaren.<br><br>
               
-              Ich witme mich gerne verschiedener Projekte. 
+              Ich widme mich gerne verschiedener Projekte. 
               So habe ich diese Seite ins Leben gerufen, um mich näher vorstellen zu können. 
               Ich hoffe, dass du am Ende einen besseren Eindruck von mir, meinem Werdegang, Kenntnissen und Interessen gewinnen konntest.
             </p>
@@ -107,37 +104,7 @@
       </div>
     </section>
 
-    <!-- JOBS -->
-    <section id="jobs">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p class="text-center preTitle">BERUFSERFAHRUNG</p>
-            <h1 class="text-center sectionTitle">BERUFE</h1>
-            <h2 class="text-center postTitle">Verteilung meiner Aufgaben.</h2>
-            <div class="mt-5"></div>
-          </div>
-          <div class="col-6 text-center">
-            <div class="jobsTile">
-              SPORTWELT SCHERER<br>
-              2,5 Jahre<br>
-              IT-Abteilung
-            </div>
-          </div>
-          <div class="col-6 text-center">
-            <div class="jobsTile">            
-              SODERMANNS AUTOMOBILE GMBH<br>
-              3 Jahre<br>
-              Ausbildung Bürokaufmann
-            </div>            
-          </div>
-          <div class="col-12">
-            <div class="diagram"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <!-- SKILLS -->
     <section id="skills">
         <div class="container">
           <div class="row">
@@ -305,9 +272,100 @@
 
           </div>
         </div>
-      </section>
+    </section>
 
-      
+    <!-- JOBS -->
+    <section id="jobs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="text-center preTitle">BERUFSERFAHRUNG</p>
+            <h1 class="text-center sectionTitle">BERUFE</h1>
+            <h2 class="text-center postTitle">Verteilung meiner Aufgaben.</h2>
+            <div class="mt-5"></div>
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="jobsTile">
+              SPORTWELT SCHERER<br>
+              2,5 Jahre<br>
+              IT-Abteilung
+            </div>
+
+
+            <ul class="timeline left">
+              <li><p>Verwaltung des ERP-Systems</p></li>
+              <li><p>Datenstrukturierung / Daten Im- und Exporte</p></li>
+              <li><p>Verwaltung des Online-Shops und der Märktplätze</p></li>
+              <li><p>Leasing- und Finanzierungsabwicklung</p></li>
+              <li><p>Kundensupport und Verkaufstätigkeiten</p></li>
+              <li><p>Abmahn- und Datenschutz</p></li>
+              <li><p>Preisoptimerung über Repricing-Tools</p></li>
+              <li><p>Weitere im <a class="" href="../documents/reference.pdf#zoom=150">Zwischenzeugnis</a></p></li>
+            </ul>
+
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="jobsTile">            
+              SODERMANNS AUTOMOBILE<br>
+              3 Jahre<br>
+              Ausbildung
+            </div> 
+
+            <ul class="timeline left">
+              <li><p>Garantie- und Reklamationsabwicklung</p></li>
+              <li><p>Führung der Umsatzstatistik</p></li>
+              <li><p>Einkauf und Beschaffung</p></li>
+              <li><p>Korrespondenz mit Kunden und Lieferanten</p></li>
+              <li><p>Erstellung und Kontrolle von Rechnungen</p></li>
+              <li><p>Dokumentenverwaltung und -ablage</p></li>
+              <li><p>Softwareupdates an Rasenrobotern</p></li>
+              <li><p>Weitere im <a class="" href="../documents/reference.pdf#zoom=150">Ausbidungszeugnis</a></p></li>
+            </ul>
+
+          </div>
+
+
+
+          <!--
+          <div class="col-12">
+            <div class="diagram"></div>
+          </div>
+          -->
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DOCUMENTS -->
+    <section id="documents">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="text-center preTitle">DOKUMENTE</p>
+            <h1 class="text-center sectionTitle">UNTERLAGEN</h1>
+            <h2 class="text-center postTitle">Ein tieferer Einblick.</h2>
+            
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-6">
+            <a href="#">
+              <div class="docBtn">
+                LEBENSLAUF
+              </div>
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="#">
+              <div class="docBtn">
+                ZERTIFIKATE
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ACTIVITIES -->
     <section id="activities">
@@ -388,36 +446,6 @@
       </div>
     </section>
 
-    <!-- DOCUMENTS -->
-    <section id="documents">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p class="text-center preTitle">DOKUMENTE</p>
-            <h1 class="text-center sectionTitle">UNTERLAGEN</h1>
-            <h2 class="text-center postTitle">Ein tieferer Einblick.</h2>
-            
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-6">
-            <a href="#">
-              <div class="docBtn">
-                LEBENSLAUF
-              </div>
-            </a>
-          </div>
-          <div class="col-6">
-            <a href="#">
-              <div class="docBtn">
-                ZERTIFIKATE
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- CONTACT -->
     <section id="contact">
       <div class="container">
@@ -469,9 +497,7 @@
       </div>
     </section>
 
-
     <?php include("footer.php");?>
-
 
     <script src="js/custom.js"></script>
   </body>

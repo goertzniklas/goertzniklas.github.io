@@ -93,6 +93,11 @@
                 <p></p><p><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für <a href="https://www.activemind.de/datenschutz/datenschutzhinweis-generator/" target="_blank" rel="noopener">externe Datenschutzbeauftragte</a> (Version #2019-04-10).</em></p>
             </div>
         </div>
+
+        <a href="https://www.whathaveidone.de">
+            <div class="backToWebsite">Zurück</div>
+        </a>
+
     </div>
 </section>
 <?php include("footer.php");?>

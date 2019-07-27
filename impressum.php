@@ -56,6 +56,12 @@
                 <p>Muster-Impressum von der Flegl Rechtsanwälte GmbH</p>
             </div>
         </div>
+
+        <a href="https://www.whathaveidone.de">
+            <div class="backToWebsite">Zurück</div>
+        </a>
+
+
     </div>
 </section>
 <?php include("footer.php");?>

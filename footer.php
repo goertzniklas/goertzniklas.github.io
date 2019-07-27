@@ -55,3 +55,5 @@
         </div>    
       </footer>
     </section>
+
+    <div class="bottomClose"></div>

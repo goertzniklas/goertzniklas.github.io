@@ -24,6 +24,30 @@ body {
 	display: none;
 }
 
+.moreBtn1{
+	border: 0;
+    background: #191f2d;
+    color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.moreBtn2{
+    border: 0;
+    background: #0e73ee;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.moreBtn3{
+	border: 0;
+    background: #191f2d;
+    color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+
 .email{
     background-image: url(../img/logos/email.svg);
     background-repeat: no-repeat;
@@ -54,29 +78,7 @@ body {
     background-position: -1px 46px;
 }
 
-.moreBtn1{
-	border: 0;
-    background: #ff7f27;
-    color: white;
-	text-align: center;
-	margin-top: 50px;
-}
 
-.moreBtn2{
-	border: 0;
-    background: #FFEB3B;
-    color: #000000;
-	text-align: center;
-	margin-top: 50px;
-}
-
-.moreBtn3{
-	border: 0;
-    background: #ff7f27;
-    color: white;
-	text-align: center;
-	margin-top: 50px;
-}
 
 section {
 	min-height: 400px;
@@ -112,16 +114,8 @@ section {
 	z-index: 10;
 }
 
-.navbar-expand-md {
-	/* background: #f9f9f9a1;
-     width: 100%;
-     border-bottom: 4px solid #f9f9f9;
-     */
-}
-
 .navbar-toggler {
-	/* border-color: #03A9F4;
-     */
+	/* border-color: #03A9F4; */
 	color: white;
 	font-size: 50px;
 	z-index: 9;
@@ -149,10 +143,6 @@ section {
 	font-weight: bold;
 	transform: skewY(-3deg);
 }
-
-
-
-.postTitle {}
 
 
 /*SECTIONS*/
@@ -319,6 +309,10 @@ ul.timeline>li:before {
     z-index: 400;
 }
 
+.left{
+	text-align:left;
+}
+
 #jobs {
     color: #191f2d;
     background: #f7f5f5;
@@ -326,26 +320,23 @@ ul.timeline>li:before {
 }
 
 .jobsTile{
-    border: 2px solid #191f2d;
-    border-radius: 5px;
-    background: #191f2d;
-    box-shadow: 0px 3px 10px #191f2d;
-    padding-top: 7px;
-    color: white;
+    border: 3px solid #191f2d;
+    color: #191f2d;
+    padding: 20px;
 }
 
 #skills {
-	background:#191f2d;
+	background: #000000b8;
 	color: white;
 }
 
 #skills .sectionTitle{
-	color: #ffeb3b;
+    color: #0e73ee;
 }
 
 #skills ul.timeline:before {
     content: ' ';
-    background: #ffeb3b;
+    background: #6c6c6c;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -360,7 +351,7 @@ ul.timeline>li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #ffeb3b;
+    border: 3px solid #0e73ee;
     left: 20px;
     width: 20px;
     height: 20px;
@@ -386,13 +377,51 @@ ul.timeline>li:before {
 }
 
 .skillHeading{
-    color: #ffeb3b;
+    color: #6d6d6d;
 }
 
 #activities {
-    color: #4caf50;
+    color: #191f2d;
     background: #f7f5f5;
 }
+
+
+.hobbyHeading{
+    color: #0e73ee;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.hobbyText{
+    color: #4a4a4a;
+}
+
+#activities ul.timeline:before {
+	content: ' ';
+    background: #6d6d6d;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+
+#activities ul.timeline>li:before {
+    content: ' ';
+    background: #0e73ee;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #f7f5f5;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
 
 #documents {
     color: white;
@@ -449,8 +478,15 @@ ul.timeline>li:before {
 }
 
 #footer a{
-	color: #FFEB3B;
+	color:#0e73ee;
 }	
+
+.bottomClose{
+	width: 100%;
+    height: 200px;
+    background: #0c0f15;
+    margin-top: -120;
+}
 
 .diagram{
     background-image: url(../img/diagram.png);
@@ -682,34 +718,10 @@ ul.timeline>li:before {
 	position: absolute;
 }
 
-.hobbyHeading{
-    color: #2e6330;
-}
-
-.hobbyText{
-    color: #4a4a4a;
-}
-
-#activities ul.timeline:before {
-    content: ' ';
-    background: #2e6330;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-}
-
-#activities ul.timeline>li:before {
-    content: ' ';
-    background: #2e6330;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #2e6330;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
+.backToWebsiteBtn{
+	border: 3px solid #0c52ee;
+    width: 300px;
+    text-align: center;
+    color: #0c52ee;
+    border-radius: 4px;
 }
