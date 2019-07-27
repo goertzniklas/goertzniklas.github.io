@@ -1,39 +1,9 @@
-document.getElementById("contactSend").addEventListener("click", function(){   
-    var subject = document.getElementById("subject").value;
-    var name = document.getElementById("name").value;
-    var phone = document.getElementById("phone").value;
-    var message = document.getElementById("message").value;
-    var mailto = ("mailto:goertz-niklas@posteo.net?subject=" + subject + "&body=" + message + "%0D%0A%0D%0A Tel: " + phone + "%0D%0A Name: " + name + ";");     
-    
-    /*
-    if(subject.length <= 20 && subject != ""){
-        console.log("subject ok");
-    }else{
-        console.log("subject too long or empty!");
-    }
-
-    if(name.length <= 20 && name != ""){
-        console.log("name ok");
-    }else{
-        console.log("name too long or empty!");
-    }
-
-    if(message.length <= 200 && message != ""){
-        console.log("name ok");
-    }else{
-        console.log("message too long, empty or not a word!");
-    }
-    */
-   
-    window.location.href = mailto;
-    
-}); 
-
-
+//ASTRONAUT CLICK
 document.getElementById("astronaut").addEventListener("click", function(){ 
     astronaut.style.backgroundImage = "url(../website/img/astronaut/idle0.png)";
 });
 
+//CATS !!!!
 const args = [
     `%c  %c  %c  %c  %c  %c  %c  %c  %c    `,
 
@@ -49,7 +19,7 @@ const args = [
 ];
 window.console.log.apply(console, args);
 
-
+//MORE BTN
 function more() {
     var dots1 = document.getElementById("dots1");
     var moreText1 = document.getElementById("more1");
@@ -91,9 +61,9 @@ function more() {
     }
 }
 
-
+//TO TOP BTN
 $(document).ready(function(){
-	var back_to_top_button = ['<a href="#top" class="back-to-top">Nach oben</a>'].join("");
+	var back_to_top_button = ['<a href="#top" class="back-to-top">Ʌ</a>'].join("");
 	$("body").append(back_to_top_button)
 	$(".back-to-top").hide();
 	$(function () {
