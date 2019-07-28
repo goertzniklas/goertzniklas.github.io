@@ -1,6 +1,6 @@
 //ASTRONAUT CLICK
 document.getElementById("astronaut").addEventListener("click", function(){ 
-    astronaut.style.backgroundImage = "url(../website/img/astronaut/idle0.png)";
+    astronaut.style.backgroundImage = "url(../website/img/astronaut/naked1.gif)";
 });
 
 //CATS !!!!
@@ -21,6 +21,10 @@ window.console.log.apply(console, args);
 
 //MORE BTN
 function more() {
+    var dots = ["dots1", "dots2", "dots3"];
+    var more = ["dots1", "dots2", "dots3"];
+    var btns = ["dots1", "dots2", "dots3"];
+
     var dots1 = document.getElementById("dots1");
     var moreText1 = document.getElementById("more1");
     var btnText1 = document.getElementById("myBtn1");
@@ -63,7 +67,7 @@ function more() {
 
 //TO TOP BTN
 $(document).ready(function(){
-	var back_to_top_button = ['<a href="#top" class="back-to-top">Ʌ</a>'].join("");
+	var back_to_top_button = ['<a href="#top" class="back-to-top"></a>'].join("");
 	$("body").append(back_to_top_button)
 	$(".back-to-top").hide();
 	$(function () {
@@ -82,3 +86,12 @@ $(document).ready(function(){
 		});
 	});
 });
+
+//SKILLS
+/*
+skills = document.getElementsByClassName("skillImg");
+
+for(i=0;i<skills.length;i++){
+    skills[i].style.background = "red"
+}
+*/

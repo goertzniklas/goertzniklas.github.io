@@ -86,7 +86,7 @@
                   </p>
                 </li>
                 <li>
-                  <p>2011</p>
+                  <p>2011 & ></p>
                   <p>
                     Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...
                   </p>
@@ -390,6 +390,10 @@
                     In der Schulband konnte ich Schlagzeug, Klavier oder auch E-Bass spielen - später dann MPC, Turntables - you name it.
                     Aber nicht nur Musik machen ist mir wichtig - Musik hören ist für mich auf einem Level.
                     Du willst hören was ich höre? - <a href="https://open.spotify.com/user/doodlesdoofles?si=YLbs-U_7S8ueDkKSAeLuuA"> Hier geht's zu meinem Spotify Profil!</a>
+                  </p>
+                  <br>
+                  <p>
+                    <iframe src="https://open.spotify.com/embed/track/4djIFfof5TpbSGRZUpsTXq" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                   </p>
                 </li>
                 <li>
