@@ -1,6 +1,6 @@
 //ASTRONAUT CLICK
 document.getElementById("astronaut").addEventListener("click", function(){ 
-    astronaut.style.backgroundImage = "url(../website/img/astronaut/naked1.gif)";
+    astronaut.style.backgroundImage = "url(https://raw.githubusercontent.com/dooflesdoodles/website/master/img/astronaut/naked1.gif)";
 });
 
 //CATS !!!!

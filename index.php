@@ -391,10 +391,10 @@
                     Aber nicht nur Musik machen ist mir wichtig - Musik hören ist für mich auf einem Level.
                     Du willst hören was ich höre? - <a href="https://open.spotify.com/user/doodlesdoofles?si=YLbs-U_7S8ueDkKSAeLuuA"> Hier geht's zu meinem Spotify Profil!</a>
                   </p>
-                  <br>
                   <p>
                     <iframe src="https://open.spotify.com/embed/track/4djIFfof5TpbSGRZUpsTXq" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                   </p>
+                  <br>                  
                 </li>
                 <li>
                   <p class="hobbyHeading">PROGRAMMIEREN | WEBDESIGN | GRAFIKBEARBEITUNG</p>
