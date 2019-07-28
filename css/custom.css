@@ -13,7 +13,7 @@ body {
     position: fixed;
     bottom: 20px;
     width: 60px;
-    background-image: url(https://suncatcherstudio.com/uploads/patterns/arrow-icons/png/button-up-icon-arrow.png);
+    background-image: url(https://raw.githubusercontent.com/dooflesdoodles/website/master/img/arrowup.png);
     background-size: 60px 60px;
     right: 20px;
     height: 60px;
@@ -619,6 +619,13 @@ ul.timeline>li:before {
 		background-attachment: fixed;
 		background-size: 100%;
 	}
+	
+	.linkedin, .github, .whatsapp {
+	    margin-bottom: 5px;
+	    height: 45px;
+	    width: 148px;
+	    margin: inherit!important;
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -639,6 +646,13 @@ ul.timeline>li:before {
 		background-image:url(../img/nebula.jpg);
 		background-attachment: fixed;
 		background-size: 100%;
+	}
+	
+	.linkedin, .github, .whatsapp {
+	    margin-bottom: 5px;
+	    height: 45px;
+	    width: 148px;
+	    margin: inherit!important;
 	}	
 }
 
@@ -660,6 +674,13 @@ ul.timeline>li:before {
 		background-image:url(../img/nebula.jpg);
 		background-attachment: fixed;
 		background-size: 100%;
+	}
+	
+	.linkedin, .github, .whatsapp {
+	    margin-bottom: 5px;
+	    height: 45px;
+	    width: 148px;
+	    margin: inherit!important;
 	}
 }
 
