@@ -35,6 +35,11 @@
                 <div class="whatsapp"></div>
               </a>
             </li>
+            <li>
+              <a href="https://de.linkedin.com/">
+                <div class="telegram"></div>
+              </a>
+            </li>
           </ul>
         </div>
         <div class="col-md-3 mb-md-0 mb-3">
