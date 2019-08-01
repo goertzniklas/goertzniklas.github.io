@@ -740,9 +740,8 @@ ul.timeline>li:before {
 }
 
 .backToWebsiteBtn {
-  border: 3px solid #0c52ee;
-  width: 300px;
+  border: 3px solid;
+  width: 100px;
   text-align: center;
-  color: #0c52ee;
-  border-radius: 4px;
+  border-radius: 5px;
 }

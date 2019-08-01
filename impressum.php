@@ -25,7 +25,7 @@
                     E-Mail:
                     <a href="#">goertz-niklas@posteo.net</a>
                 </p>
-                <h3>Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 Rundfunkstaatsvertrag (RStV):</h3>
+                <h5>Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 Rundfunkstaatsvertrag (RStV):</h5>
                 <p>
                     Niklas Görtz<br>
                     Sopericher Straße 62<br>

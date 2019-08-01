@@ -21,7 +21,7 @@
                 </p>
                 <hr>
                 <br>
-                <h2>Ihre Betroffenenrechte</h2>
+                <h3>Ihre Betroffenenrechte</h3>
                 <p>
                     Unter den angegebenen Kontaktdaten können Sie jederzeit folgende Rechte ausüben:
                 </p>
@@ -38,7 +38,7 @@
                     Sofern Sie mir eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.<br><br>
                     Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden, z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres Wohnsitzes oder an die für mir als verantwortliche Stelle zuständige Behörde.<br><br>
                     Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter: 
-                    <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank" rel="nofollow noopener">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a>.
+                    <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank" rel="nofollow noopener">https://www.bfdi.bund.de/DE/..</a>.
                 </p>
                 <hr>
                 <p><strong>Spotify</strong><br>
@@ -48,7 +48,7 @@ Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Spotif
 https://www.spotify.com/de/legal/privacy-policy/<br>
 Wenn Sie nicht wünschen, dass Spotify den Besuch unserer Seiten Ihrem Spotify-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Spotify-Benutzerkonto aus.</p>
                 <br>
-                <h2>Kontaktformular</h2>
+                <h3>Kontaktformular</h3>
                 <h3>Art und Zweck der Verarbeitung:</h3>
                 <p>
                     Die von Ihnen eingegebenen Daten werden zum Zweck der individuellen Kommunikation mit Ihnen gespeichert. Hierfür ist die Angabe einer validen E-Mail-Adresse sowie Ihres Namens erforderlich. Diese dient der Zuordnung der Anfrage und der anschließenden Beantwortung derselben. Die Angabe weiterer Daten ist optional.
@@ -69,7 +69,7 @@ Wenn Sie nicht wünschen, dass Spotify den Besuch unserer Seiten Ihrem Spotify-
                 <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
                 <p>Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig. Ich kann Ihre Anfrage jedoch nur bearbeiten, sofern Sie mir Ihren Namen, Ihre E-Mail-Adresse und den Grund der Anfrage mitteilen.</p>
                 <hr><p></p>
-                <h2>Verwendung von Scriptbibliotheken (Google Webfonts)</h2>
+                <h3>Verwendung von Scriptbibliotheken (Google Webfonts)</h3>
                 <h3>Art und Zweck der Verarbeitung:</h3>
                 <p>Um meine Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwende ich auf dieser Website „Google Web Fonts“ der Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; nachfolgend „Google“) zur Darstellung von Schriften.<br><br>
                 Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier: <a href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a></p>
@@ -87,13 +87,13 @@ Wenn Sie nicht wünschen, dass Spotify den Besuch unserer Seiten Ihrem Spotify-
                 <h3>Widerruf der Einwilligung:</h3>
                 <p>Zur Darstellung der Inhalte wird regelmäßig die Programmiersprache JavaScript verwendet. Sie können der Datenverarbeitung daher widersprechen, indem Sie die Ausführung von JavaScript in Ihrem Browser deaktivieren oder einen JavaScript-Blocker installieren. Bitte beachten Sie, dass es hierdurch zu Funktionseinschränkungen auf der Website kommen kann.</p>
                 <hr><p></p>
-                <h2>SSL-Verschlüsselung</h2>
+                <h3>SSL-Verschlüsselung</h3>
                 <p>Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwende ich dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.</p>
                 <hr><p></p>
-                <h2>Änderung der Datenschutzbestimmungen</h2>
+                <h3>Änderung der Datenschutzbestimmungen</h3>
                 <p>Ich behalte mir vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen meiner Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.</p>
                 <hr><p></p>
-                <h2>Fragen an den Datenschutzbeauftragten</h2>
+                <h3>Fragen an den Datenschutzbeauftragten</h3>
                 <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie mir bitte eine E-Mail.</p>
 
                 <p></p><p><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für <a href="https://www.activemind.de/datenschutz/datenschutzhinweis-generator/" target="_blank" rel="noopener">externe Datenschutzbeauftragte</a> (Version #2019-04-10).</em></p>
