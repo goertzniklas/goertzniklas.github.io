@@ -5,7 +5,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background: #191f2d;
-  background-image: url(https://wallup.net/wp-content/uploads/2016/01/305418-space-galaxy.jpg);
+  background-image: url(../img/orion-nebula-11107_600.jpg);
   background-size: auto 800px;
   background-attachment: fixed;
 }
@@ -158,7 +158,7 @@ section {
 
 .astronaut {
   cursor: pointer;
-  background: url(../img/astronaut/idle1.gif);
+  background: url(../img/astronaut/idle0.gif);
   background-repeat: no-repeat;
   animation-name: astronaut;
   animation-duration: 3s;
@@ -345,7 +345,7 @@ ul.timeline>li:before {
 }
 
 #skills .sectionTitle {
-  color: #0e73ee;
+  color: #fff;
 }
 
 #skills ul.timeline:before {
@@ -436,6 +436,7 @@ ul.timeline>li:before {
 
 #documents {
   color: white;
+  background: #000000b8;
 }
 
 .docBtn {
@@ -448,6 +449,7 @@ ul.timeline>li:before {
 
 #contact {
   color: #fff;
+  background: #000000b8;
 }
 
 .contactInp {
@@ -623,7 +625,7 @@ ul.timeline>li:before {
   }
 
   body {
-    background-image: url(../img/nebula.jpg);
+    background-image: url(../img/orion-nebula-11107_1920.jpg);
     background-attachment: fixed;
     background-size: 100%;
   }
@@ -656,7 +658,7 @@ ul.timeline>li:before {
   }
 
   body {
-    background-image: url(../img/nebula.jpg);
+    background-image: url(../img/orion-nebula-11107_1920.jpg);
     background-attachment: fixed;
     background-size: 100%;
   }
@@ -689,7 +691,7 @@ ul.timeline>li:before {
   }
 
   body {
-    background-image: url(../img/nebula.jpg);
+    background-image: url(../img/orion-nebula-11107_1920.jpg);
     background-attachment: fixed;
     background-size: 100%;
   }
