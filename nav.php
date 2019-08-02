@@ -6,8 +6,8 @@
     <div class="navbar-collapse collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <a class="nav-item nav-link" href="#career">Werdegang</a>
-            <a class="nav-item nav-link" href="#jobs">Skills</a>
-            <a class="nav-item nav-link" href="#skills">Berufe</a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
+            <a class="nav-item nav-link" href="#jobs">Berufe</a>
             <a class="nav-item nav-link" href="#activities">Hobbys</a>
             <a class="nav-item nav-link" href="#contact">Kontakt</a>
         </ul>

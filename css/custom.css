@@ -8,6 +8,7 @@ body {
   background-image: url(../img/orion-nebula-11107_600.jpg);
   background-size: auto 800px;
   background-attachment: fixed;
+  background-position-x: -200px;
 }
 
 .back-to-top {
