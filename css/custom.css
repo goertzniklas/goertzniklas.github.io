@@ -629,6 +629,7 @@ ul.timeline>li:before {
     background-image: url(../img/orion-nebula-11107_1920.jpg);
     background-attachment: fixed;
     background-size: 100%;
+    background-position-x: 0px;
   }
 
   .linkedin, .github, .whatsapp, .telegram {
@@ -662,6 +663,7 @@ ul.timeline>li:before {
     background-image: url(../img/orion-nebula-11107_1920.jpg);
     background-attachment: fixed;
     background-size: 100%;
+    background-position-x: 0px;
   }
 
   .linkedin, .github, .whatsapp, .telegram {
@@ -695,6 +697,7 @@ ul.timeline>li:before {
     background-image: url(../img/orion-nebula-11107_1920.jpg);
     background-attachment: fixed;
     background-size: 100%;
+    background-position-x: 0px;
   }
 
   .linkedin, .github, .whatsapp, .telegram {
