@@ -326,11 +326,7 @@
 
 
 
-          <!--
-          <div class="col-12">
-            <div class="diagram"></div>
-          </div>
-          -->
+
 
 
         </div>
