@@ -1,297 +1,142 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  background: #191f2d;
-  background-image: url(../img/orion-nebula-11107_600.jpg);
-  background-size: auto 800px;
-  background-attachment: fixed;
-  background-position-x: -200px;
+body{
+  background-image:url(../img/background/nebula1.jpg);
+  /*background-image:url(../img/background/orion-nebula-11107_1920.jpg);*/
+  background-attachment:fixed;
+  background-size:100% auto;
 }
 
-.back-to-top {
-  position: fixed;
-  bottom: 20px;
-  width: 60px;
-  background-image: url(https://suncatcherstudio.com/uploads/patterns/arrow-icons/png/button-up-icon-arrow.png);
-  background-size: 60px 60px;
-  right: 20px;
-  height: 60px;
-  mix-blend-mode: difference;
-}
-
-#more1, #more2, #more3 {
-  display: none;
-}
-
-.moreBtn1 {
-  border: 0;
-  background: #191f2d;
-  color: white;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.moreBtn2 {
-  border: 0;
-  background: #0e73ee;
-  color: #000000;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.moreBtn3 {
-  border: 0;
-  background: #191f2d;
-  color: white;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.email {
-  background-image: url(../img/logos/email.svg);
-  background-repeat: no-repeat;
-  height: 45px;
-  padding-left: 54px;
-  padding-top: 8px;
-  width: 100%;
-}
-
-.linkedin, .github, .whatsapp, .telegram {
-  margin-bottom: 5px;
-  height: 45px;
-  width: 148px;
-  margin: 0 auto;
-}
-
-.linkedin {
-  background-image: url(../img/logos/getInTouch.svg);
-  background-position: -1px -9px;
-}
-
-.github {
-  background-image: url(../img/logos/getInTouch.svg);
-  background-position: -1px 142px;
-}
-
-.whatsapp {
-  background-image: url(../img/logos/getInTouch.svg);
-  background-position: -1px 93px;
-}
-
-.telegram {
-  background-image: url(../img/logos/getInTouch.svg);
-  background-position: -1px 46px;
-}
-
-section {
-  min-height: 400px;
-  padding-bottom: 70px;
-  transform: skew(0deg, -3deg);
-}
-
-.aboutme {
-  color: white;
-}
-
-.well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-}
-
-.container {
-  transform: skew(0deg, 3deg);
-  padding: 50px;
-}
-
-
-/*NAVBAR*/
-
-.navbar {
-  position: absolute;
-  z-index: 10;
-}
-
-.navbar-toggler {
-	/* border-color: #03A9F4; */
-  color: white;
-  font-size: 50px;
-  z-index: 9;
-}
-
-.navbar-nav .nav-link {
-  color: white;
-  font-size: 25px;
-}
-
-.nav-item .navbar-nav .navbar-link:hover {
-  color: #c82e2e;
-}
-
-
-/*TITLES*/
-.preTitle {
-  font-size: 11px;
-  margin-bottom: 0px;
-}
-
-.sectionTitle {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-weight: bold;
-  transform: skewY(-3deg);
-}
-
-
-/*SECTIONS*/
-#header {
-  padding-bottom: 0;
-  padding-top: 70px;
-}
-
-.astronaut {
-  cursor: pointer;
-  background: url(../img/astronaut/idle0.gif);
-  background-repeat: no-repeat;
-  animation-name: astronaut;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  height: 500px;
-  left: 45%;
-  width: 125px;
-  position: absolute;
-  transform: rotate(3deg);
-}
-
-@keyframes astronaut {
-  0% {
-    background-position-y: 50px;
-  }
-
-  50% {
-    background-position-y: 100px;
-  }
-
-  100% {
-    background-position-y: 50px;
-  }
-}
-
-.space {
-  height: 400px;
-}
-
-.stars1,
-.stars2,
-.stars3,
-.stars4,
-.stars5 {
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+.stars1, .stars2, .stars3, .stars4, .stars5{
+  animation:infinite linear stars;
   height: 200%;
   width: 100%;
-  position: absolute;
+  position: fixed;
+  margin-top:-500px;
 }
 
-.stars1 {
+.stars1{
   background: url(../img/stars/stars.png);
-  animation-name: space1;
   animation-duration: 25s;
 }
 
-@keyframes space1 {
-  0% {
-    background-position-y: 0px;
-  }
-
-  100% {
-    background-position-y: 449px;
-  }
-}
-
-.stars2 {
+.stars2{
   background: url(../img/stars/stars2.png);
-  animation-name: space2;
   animation-duration: 40s;
 }
 
-@keyframes space2 {
-  0% {
-    background-position-y: 0px;
-  }
-
-  100% {
-    background-position-y: 449px;
-  }
-}
-
-.stars3 {
+.stars3{
   background: url(../img/stars/stars3.png);
-  animation-name: space3;
   animation-duration: 17s;
 }
 
-@keyframes space3 {
-  0% {
-    background-position-y: 0px;
-  }
-
-  100% {
-    background-position-y: 449px;
-  }
-}
-
-.stars4 {
+.stars4{
   background: url(../img/stars/stars4.png);
-  animation-name: space4;
   animation-duration: 2.5s;
 }
 
-@keyframes space4 {
-  0% {
-    background-position-y: 0px;
-  }
-
-  100% {
-    background-position-y: 449px;
-  }
-}
-
-.stars5 {
+.stars5{
   background: url(../img/stars/stars5.png);
-  animation-name: space5;
   animation-duration: 20s;
 }
 
-@keyframes space5 {
-  0% {
-    background-position-y: 0px;
-  }
-
-  100% {
+@keyframes stars{
+  100%{
     background-position-y: 449px;
   }
 }
 
-#career {
-  color: #191f2d;
-  background: #f7f5f5;
-  padding-bottom: 0px;
-  background-image: url(../img/polyfill.jpg);
+.section{
+  width:100%;
+  text-align:center;
+  transform:skewY(-3deg);
+  padding-top:40px;
+  padding-bottom:80px;
+}
+
+#section-timeline, #section-hobbys{
+  background-image:url(../img/background/polyfill.jpg);
+  color:black;
+}
+
+#section-skills{
+  background:rgba(0,0,0,0.8);
+  color:white;
+}
+
+#section-about{
+  margin-top:550px;
+  color:white;
+}
+
+#section-contact{
+  color:white;
+}
+
+#section-footer{
+  background: black;
+  color: white;
+  text-align: left;
+  padding-top: 100px;
+  height: 300px;
+  box-shadow: 0px -1px 0px black, 0px 290px 0px black;
+}
+
+.container{
+  max-width:1140px;
+  transform:skewY(3deg);
+}
+
+.nav-link{
+  color:white!important;
+  text-transform:uppercase;
+  font-family:'Open Sans', sans-serif;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.navbar-dark .navbar-toggler{
+  color: white;
+  font-weight: bold;
+  border: 2px solid;
+  padding-bottom: 7px;
+}
+
+.firstTitle{
+  font-family:'Open Sans', sans-serif;
+  text-transform:uppercase;
+  margin-top: 90px;
+  margin-bottom: -20px;
+}
+
+.secondTitle{
+  font-size:120px;
+  font-family:'Roboto', sans-serif;
+  font-weight:bold;
+  text-transform:uppercase;
+  transform:skewY(-3deg);
+  margin-bottom: -20px;
+}
+
+.thirdTitle{
+  font-size:25px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.timelineCol{
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.skillHeading{
+  color:grey;
 }
 
 ul.timeline {
   list-style-type: none;
   position: relative;
+  text-align:justify;
 }
 
 ul.timeline:before {
@@ -307,447 +152,220 @@ ul.timeline:before {
 
 ul.timeline>li {
   margin: 20px 0;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 
 ul.timeline>li:before {
   content: ' ';
-  background: #243252;
+  background: black;
   display: inline-block;
   position: absolute;
-  border-radius: 50%;
-  border: 3px solid #f7f5f5;
+  border-radius: 100%;
+  border: 2px solid #f7f5f5;
   left: 20px;
   width: 20px;
   height: 20px;
   z-index: 400;
 }
 
-.left {
-  text-align: left;
+.sBr{
+  height:10px;
 }
 
-#jobs {
-  color: #191f2d;
-  background: #f7f5f5;
-  box-shadow: 0px 0px 0px 2px #f7f5f5;
-  background-image: url(../img/polyfill.jpg);
+.bBr{
+  width: 100%;
+  height:50px;
 }
 
-.jobsTile {
-  border: 3px solid #191f2d;
-  color: #191f2d;
-  padding: 20px;
+.dark{
+  background-color:black;
 }
 
-#skills {
-  background: #000000b8;
-  color: white;
-}
-
-#skills .sectionTitle {
-  color: #fff;
-}
-
-#skills ul.timeline:before {
-  content: ' ';
-  background: #6c6c6c;
-  display: inline-block;
+#astronaut{
+  background: url(../img/astronaut/idle0.gif);
+  background-repeat: no-repeat;
+  animation: astronaut 4s infinite alternate-reverse ease-in-out;
+  width:125px;
+  height:278px;
+  margin:0 auto;
+  margin-top:-390px;
+  margin-left:-72px;
   position: absolute;
-  left: 29px;
-  width: 2px;
-  height: 100%;
-  z-index: 400;
+  left: 50%;
 }
 
-#skills ul.timeline>li:before {
-  content: ' ';
-  background: #191f2d;
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  border: 3px solid #0e73ee;
-  left: 20px;
-  width: 20px;
-  height: 20px;
-  z-index: 400;
+@keyframes astronaut{
+  100%{
+    margin-top: -290px;
+    transform: rotate(-6deg);
+  }
 }
 
-.skill {
+.skill{
   text-align: center;
 }
 
-.skillImg {
+.skillImg{
   width: 100px;
   height: 100px;
   margin-bottom: 20px;
 }
 
-.skillImg:hover {
-  filter: drop-shadow(0px 0px 4px white);
+.skillImgAutomation{
+  animation: skillAutomation 7s infinite ease-in-out;
 }
 
-.skillTag {
+@keyframes skillAutomation{
+  2%{
+    filter: drop-shadow(0px 0px 14px white);
+    transform: scale(1.1);
+  }
+  7%{
+    filter:none;
+    transform: scale(1);
+  }
+}
+
+.skillTag{
   margin-bottom: 0px;
 }
 
-.skillHeading {
-  color: #6d6d6d;
+.getInTouch{
+  margin-top: 30px;
+  margin-bottom: 5px;
+  width: 70px;
 }
 
-#activities {
-  color: #191f2d;
-  background: #f7f5f5;
-  background-image: url(../img/polyfill.jpg);
+.getInTouchMailaddress{
+  color:white;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.hobbyHeading {
-  color: #0e73ee;
-  font-weight: bolder;
-  font-size: 20px;
-}
-
-.hobbyText {
-  color: #4a4a4a;
-}
-
-#activities ul.timeline:before {
-  content: ' ';
-  background: #6d6d6d;
-  display: inline-block;
-  position: absolute;
-  left: 29px;
-  width: 2px;
-  height: 100%;
-  z-index: 400;
-}
-
-#activities ul.timeline>li:before {
-  content: ' ';
-  background: #0e73ee;
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  border: 3px solid #f7f5f5;
-  left: 20px;
-  width: 20px;
-  height: 20px;
-  z-index: 400;
-}
-
-#documents {
-  color: white;
-  background: #000000b8;
-}
-
-.docBtn {
-  width: 100%;
-  border: 3px solid white;
-  padding: 10px;
-  color: white;
-  text-align: center;
-}
-
-#contact {
-  color: #fff;
-  background: #000000b8;
-}
-
-.contactInp {
-  border: 2px solid #dedede;
-  border-radius: 4px;
-  background: #fbfbfb;
-  width: 100%;
-  color: #191f2d;
-}
-
-.contactInpTexA {
-  border-radius: 4px;
-  border: 3px solid #fbfbfb;
-  background: #fbfbfb;
-  height: 140px;
-  width: 100%;
-  resize: none;
-}
-
-#contactSend {
-  cursor: pointer;
-  color: #f7f5f5;
-  border: 3px solid #fbfbfb;
-  background: transparent;
-  border-radius: 5px;
-}
-
-#footer {
-  color: white;
-  height: auto;
-  min-height: 100px;
-  padding: 0;
-  background: #0c0f15;
-  box-shadow: 0px 0px 0px 2px #0c0f15;
-}
-
-#footer a {
-  color: #0e73ee;
-}
-
-.bottomClose {
-  width: 100%;
-  height: 200px;
-  position: absolute;
-  z-index: -1;
-  background: #f7f7f7;
-  margin-top: -120px;
-  background-image: url(../img/polyfill.jpg);
-}
-
-.diagram {
-  background-image: url(../img/diagram.png);
-  width: 100%;
-  max-width: 400px;
-  height: 377px;
-  background-size: 100% auto;
+#contactBorder{
+  max-width: 700px;
   margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position-y: 50px;
+  border: 4px solid white;
+  margin-top: 120px;
+  margin-bottom:70px;
+  cursor: text;
 }
 
-/*MEDIA*/
-@media (max-width: 353px) {
-  .col-md-6, .col-12, .col-6 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+#contactRocket{
+  float: left;
+  width: 50px;
+  height: 100%;
+  padding: 7px;
+  transition: 400ms;
+  margin-left:4px;
+}
 
-  .container {
-    padding-left: 20px!important;
-    padding-right: 20px!important;
-  }
+.contactFakeInput{
+  height: 50px;
+  padding-top: 1px;
+  text-align: left;
+  font-size: 30px;
+  color:white;
+  animation: fakeInputAnimation 1s infinite;
+  margin-left: 58px;
+}
 
-  ul.timeline>li {
-    padding-left: 5px!important;
-  }
-
-  .sectionTitle {
-    font-size: 37px!important;
-  }
-
-  .docBtn {
-    border: 0!important;
-    border: 3px solid white!important;
-    border-radius: 5px;
-    padding: 0!important;
-    padding-bottom: 3px!important;
-  }
-
-  .col {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .linkedin, .github, .whatsapp, .telegram {
-    margin: 5 auto!important;
-    margin: 0 auto;
-  }
-
-  .email {
-    background-image: none;
-    background-repeat: no-repeat;
-    height: 45px;
-    padding-left: 4px;
-    padding-top: 8px;
-    width: 100%;
+@keyframes fakeInputAnimation{
+  100%{
+    color:transparent;
   }
 }
 
-/* X-Small devices (portrait phones, 576px and less)*/
-@media (max-width: 576px) {
+.rocketWiggle{
+  animation: rocketWiggle 1s infinite ease-in-out;
+  transform: rotate(45deg);
+}
 
-  ul.timeline>li {
-    padding-left: 5px!important;
+@keyframes rocketWiggle{
+  10%{
+    margin-top:-1px;
   }
-
-  .container {
-    padding-left: 20px!important;
-    padding-right: 20px!important;
-  }
-
-  .col-md-6, .col-12, .col-6 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .sectionTitle {
-    font-size: 44px;
-  }
-
-  .col {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .email {
-    background-image: none;
-    background-repeat: no-repeat;
-    height: 45px;
-    padding-left: 4px;
-    padding-top: 8px;
-    width: 100%;
+  50%{
+    margin-top:3px;
+  }  
+  100%{
+    margin-top:1px;
   }
 }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-  .sectionTitle {
-    font-size: 80px;
-  }
+/*
+-
+- SMALL DEVICES
+-
+*/
 
-  #more1, #more2, #more3 {
-    display: flex;
-  }
-
-  #dots1, #myBtn1, #dots2, #myBtn2, #dots3, #myBtn3 {
-    display: none;
-  }
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-  .sectionTitle {
-    font-size: 80px;
-  }
-
-  #more1, #more2, #more3 {
-    display: flex;
-  }
-
-  #dots1, #myBtn1, #dots2, #myBtn2, #dots3, #myBtn3 {
-    display: none;
-  }
-
+@media (max-width: 1900px){
   body {
-    background-image: url(../img/orion-nebula-11107_1920.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position-x: 0px;
+    background: rgb(41,40,48);
+    background: -moz-linear-gradient(86deg, rgba(41,40,48,1) 0%, rgba(0,0,0) 100%);
+    background: -webkit-linear-gradient(86deg, rgb(0, 0, 0) 0%, rgba(50,71,88,1) 100%);
+    background: linear-gradient(86deg, rgba(41,40,48,1) 0%, rgb(0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292830",endColorstr="#000",GradientType=1);
+}
+  
+  #section-skills{
+    background:none;
   }
 
-  .linkedin, .github, .whatsapp, .telegram {
-    margin: 5 auto!important;
-    margin: 0!important;
+  /*
+  @keyframes skillAutomation{
+    2%{
+      filter:none;
+      transform: scale(1.1);
+    }
+    7%{
+      filter:none;
+      transform: scale(1);
+    }
   }
+  */
+}
 
-  .navbar {
-    position: fixed!important;
-    background: #03060d!important;
-    text-transform: uppercase!important;
-    color: white!important;
+@media (max-width: 992px){
+  .secondTitle{
+    font-size:90px;
   }
 }
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  .sectionTitle {
-    font-size: 100px;
+@media (max-width: 768px){
+  .secondTitle{
+    font-size:70px;
+  }
+  
+  #section-footer{
+    padding-top: 50px;
   }
 
-  #more1, #more2, #more3 {
-    display: flex;
+  .firstTitle{
+    margin-top: 40px;
+    margin-bottom: -5px;
   }
 
-  #dots1, #myBtn1, #dots2, #myBtn2, #dots3, #myBtn3 {
-    display: none;
-  }
-
-  body {
-    background-image: url(../img/orion-nebula-11107_1920.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position-x: 0px;
-  }
-
-  .linkedin, .github, .whatsapp, .telegram {
-    margin: 5 auto!important;
-    margin: 0!important;
-  }
-
-  .navbar {
-    position: fixed!important;
-    background: #03060d!important;
-    text-transform: uppercase!important;
-    color: white!important;
+  .secondTitle{
+    margin-bottom: 0;
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-  .sectionTitle {
-    font-size: 120px;
+@media (max-width: 576px){
+  .secondTitle{
+    font-size:40px;
   }
 
-  #more1, #more2, #more3 {
-    display: flex;
+  .skillImg{
+    width: 70px;
+    height: 70px;
   }
 
-  #dots1, #myBtn1, #dots2, #myBtn2, #dots3, #myBtn3 {
-    display: none;
+  .col4{
+    max-width: 33%;
   }
 
-  body {
-    background-image: url(../img/orion-nebula-11107_1920.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position-x: 0px;
+  .skillTag{
+    font-size: 13px;
   }
-
-  .linkedin, .github, .whatsapp, .telegram {
-    margin: 5 auto!important;
-    margin: 0!important;
-  }
-
-  .navbar {
-    position: fixed!important;
-    background: #03060d!important;
-    text-transform: uppercase!important;
-    color: white!important;
-  }
-}
-
-/*FOOTER*/
-.footer-icon {
-  height: 48px;
-  width: 48px;
-  border: 3px solid #fff;
-  border-radius: 1100%;
-  position: relative;
-  left: 50%;
-  margin-left: -22px;
-  margin-bottom: 14px;
-  z-index: 2;
-}
-
-.message {
-  background-image: url(../img/message.svg);
-  background-size: contain;
-}
-
-.phone {
-  background-image: url(../img/phone.svg);
-  background-size: contain;
-}
-
-.footer-label {
-  width: 100%;
-  position: relative;
-}
-
-.navbar {
-  position: absolute;
-}
-
-.backToWebsite {
-  border: 3px solid;
-  width: 100px;
-  text-align: center;
-  border-radius: 5px;
 }
