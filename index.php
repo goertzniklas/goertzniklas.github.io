@@ -8,6 +8,7 @@
     <div class="stars5"></div>
 
     <?php include("nav.php");?>
+    <!-- delete php! -->
 
     <!-- HEADER -->
     <section id="header">
