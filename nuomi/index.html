@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: black; /* Initial background color */
+            transition: background 1s; /* Smooth transition for background change */
+        }
+
+        .nuomifan {
+            background-image: url(Zeichnung.svg);
+            background-size: cover;
+            height: 50vmin;
+            width: 50vmin;
+            position: relative;
+            animation: 4.5s linear infinite rotateMyDog;
+            display: none; /* Initially hidden */
+        }
+
+        @keyframes rotateMyDog {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .nuomifan {
+                height: 30vmin;
+                width: 30vmin;
+            }
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            background-color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nuomifan"></div>
+    <button class="play-button" onclick="playMusic()">Awuuuu</button>
+
+    <script>
+        function playMusic() {
+            // Hide the play button
+            document.querySelector('.play-button').style.display = 'none';
+
+            // Show the image
+            document.querySelector('.nuomifan').style.display = 'block';
+
+            // Change the background to the image
+            document.body.style.background = 'url(duck.gif) center center repeat';
+            document.body.style.backgroundSize = 'auto';
+
+            // Add your code to play music in a loop
+            var audio = new Audio('music.mp3');
+            audio.loop = true;
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>
