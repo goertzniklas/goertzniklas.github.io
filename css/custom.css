@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+/* Define CSS variables for colors */
+:root {
+  --color-background: #2c3094;
+  --color-secondary-text: #2c3094;
+  --color-timeline-circle: #2c3094;
+
+  --color-secondary-background: #e9e9e9;
+
+  --color-primary-text: #e9e9e9;
+  --color-contact-border: #e9e9e9;
+
+  --color-timeline-line: #d4d9df;
+  --color-timeline-border: #e9e9e9;
+  --color-skill-heading: black;
+}
+
+body {
+  background: #2c3094;
+
+}
+
+.home:hover{
+  filter: opacity(0.5);
+}
+
+.container{
+  max-width:1140px;
+  transform:skewY(3deg);
+}
+
+.headBanner {
+  padding-top: 45px;
+  font-size: 18px;
+  background-size: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.section {
+  width: 100%;
+  text-align: center;
+  transform: skewY(-3deg);
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+#section-timeline, #section-hobbys {
+  background: var(--color-secondary-background);
+  color: var(--color-secondary-text);
+}
+
+#section-skills {
+  color: var(--color-primary-text);
+}
+
+.profile-picture{
+  background-image: url(../img/profile.JPG);
+  width: 300px;
+  height: 300px;
+  border-radius: 99%;
+  margin: 0 auto;
+  background-size: 300px;
+}
+
+.nuomi-picture{
+  background-image: url(../img/nuomi.JPG);
+  width: 300px;
+  height: 300px;
+  border-radius: 99%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-size: 400px;
+  background-position: -40px -30px;
+}
+
+#section-about {
+  margin-top: 150px;
+  color: var(--color-primary-text);
+}
+
+#section-contact {
+  color: var(--color-primary-text);
+}
+
+#section-footer {
+  background: var(--color-secondary-background);
+  color: var(--color-secondary-text);
+  text-align: left;
+  padding-top: 100px;
+  height: 300px;
+  box-shadow: 0px -1px 0px var(--color-secondary-background), 0px 290px 0px var(--color-secondary-background);
+}
+
+.nav-link {
+  color: var(--color-secondary-text) !important;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  filter: opacity(0.5);
+  text-decoration: underline;
+  text-decoration-color: var(--color-secondary-text);
+  text-decoration-thickness: 4px;
+}
+
+.navbar-dark .navbar-toggler {
+  color: var(--color-secondary-text);
+  font-weight: bold;
+  border: 2px solid var(--color-secondary-text);
+  padding-bottom: 7px;
+}
+
+.firstTitle {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+}
+
+.secondTitle {
+  font-size: 120px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: skewY(-3deg);
+  margin-bottom: -20px;
+}
+
+.thirdTitle {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.timelineCol {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.skillHeading {
+  color: var(--color-secondary-text);
+  background: #ffffff;
+  padding-left: 5px;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  text-align: left;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: var(--color-timeline-line);
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline>li {
+  margin: 20px 0;
+  padding-left: 5px;
+}
+
+ul.timeline>li:before {
+  content: ' ';
+  background: var(--color-timeline-circle);
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  border: 2px solid var(--color-timeline-border);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.sBr {
+  height: 10px;
+}
+
+.bBr {
+  width: 100%;
+  height: 50px;
+}
+
+.dark {
+  background-color: rgba(233, 233, 233, 1);
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skillImg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.skillImgAutomation {
+  animation: skillAutomation 15200ms infinite ease-in-out;
+}
+
+@keyframes skillAutomation {
+  2% {
+    filter: drop-shadow(0px 0px 14px rgb(255, 255, 255));
+    transform: scale(1.1);
+  }
+  7% {
+    filter: none;
+    transform: scale(1);
+  }
+}
+
+.skillTag {
+  display: none;
+  margin-bottom: 0px;
+}
+
+.highlighted {
+  background: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: var(--color-secondary-text);
+}
+
+
+.getInTouch {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  width: 70px;
+}
+
+.getInTouchMailaddress {
+  color: var(--color-primary-text);
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contactBorder {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 3px solid var(--color-contact-border);
+  margin-top: 120px;
+  margin-bottom: 70px;
+  cursor: text;
+}
+
+#contactRocket {
+  float: left;
+  width: 50px;
+  height: 100%;
+  padding: 7px;
+  transition: 400ms;
+  margin-left: 4px;
+}
+
+.contactFakeInput {
+  height: 50px;
+  padding-top: 1px;
+  text-align: left;
+  font-size: 30px;
+  color: var(--color-primary-text);
+  animation: fakeInputAnimation 1s infinite;
+  margin-left: 58px;
+}
+
+@keyframes fakeInputAnimation {
+  100% {
+    color: transparent;
+  }
+}
+
+.rocketWiggle {
+  animation: rocketWiggle 1s infinite ease-in-out;
+  transform: rotate(45deg);
+}
+
+@keyframes rocketWiggle{
+  10%{
+    margin-top:-1px;
+  }
+  50%{
+    margin-top:3px;
+  }  
+  100%{
+    margin-top:1px;
+  }
+}
+
+/*
+-
+- SMALL DEVICES
+-
+*/
+
+@media (max-width: 1900px){
+
+  
+.headBanner{
+  padding-top: 20px;
+  background-image: none;
+  font-size: auto;
+  background-size: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+  #section-skills{
+    background:none;
+  }
+}
+
+@media (max-width: 992px){
+  .secondTitle{
+    font-size:90px;
+  }
+}
+
+@media (max-width: 768px){
+  .secondTitle{
+    font-size:70px;
+  }
+  
+  #section-footer{
+    padding-top: 50px;
+  }
+
+  .footerElement{
+    margin-top: 50px;
+  }
+
+  .firstTitle{
+    margin-top: 40px;
+    margin-bottom: -5px;
+  }
+
+  .secondTitle{
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px){
+  .secondTitle{
+    font-size:40px;
+  }
+
+  .skillImg{
+    width: 70px;
+    height: 70px;
+  }
+
+  .col4{
+    max-width: 33%;
+  }
+
+  .skillTag{
+    font-size: 13px;
+  }
+}
